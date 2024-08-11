@@ -85,9 +85,27 @@ const educationInfo = {
       schoolName: "Breda University of Applied Sciences",
       logo: require("./assets/images/BUas_Logo.jpg"),
       subHeader: "Bachelor Degree - Creative Media & Game Technologies",
-      duration: "September 2023 - July 2027",
+      duration: "September 2023 - Now",
       desc: "Currently studying at BUas to become a Gameplay Programmer in the AAA Industry.",
-      descBullets: []
+      descBullets: [
+        "C++",
+        "OpenGL, Unreal Engine 5",
+        "Perforce",
+        "Scrum, Agile"
+      ]
+    },
+    {
+      schoolName: "ROC Nijmegen",
+      logo: require("./assets/images/logo-roc-nijmegen.png"),
+      subHeader: "MBO - Software Development",
+      duration: "September 2018 - 🎓 July 2022",
+      desc: "Here I learned the basics of programming and mainly building websites.",
+      descBullets: [
+        "HTML, CSS, JavaScript, PHP, SQL, C#, Java",
+        "Laravel, Vue.JS, React",
+        "Git, Github",
+        "Scrum, Agile"
+      ]
     }
   ]
 };
