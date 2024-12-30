@@ -33,6 +33,8 @@ const greeting = {
 
 const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/damyodk/",
+  itchio: "https://datalioness.itch.io/",
+  blsky: "https://bsky.app/profile/datalioness.itch.io",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -42,7 +44,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "A few things I do",
-  subTitle: "IM A GAMEPLAY PROGRAMMER WHO HAS EXPERIENCE WITH A FEW THINGS",
+  subTitle: "IM A GAMEPLAY PROGRAMMER HAS SPECIALIZED IN A FEW THINGS.",
   skills: [
     emoji("⚡ Have been creating gameplay experiences for a few years now."),
     emoji("⚡ I always try to learn new things and improve my skills.")
@@ -71,6 +73,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Unreal Engine 5",
       fontAwesomeClassname: "fa fa-gamepad"
+    },
+    {
+      skillName: "Technical Game Design",
+      fontAwesomeClassname: "fa fa-star"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -188,6 +194,25 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
+    },
+    {
+      images: [
+        require("./assets/images/ArmadilloMayhem2.png"),
+        require("./assets/images/ArmadilloMayhem1.png")
+      ],
+      projectName: "Armadillo Mayhem",
+      projectDesc:
+        "As my first project at BUas as as Technical Designer in Year 2 from switching from Programming to the Design & Production course that aligns more with my gameplay programming goals. You are an armadillo shooting up enemies. Roll and dash into enemies to damage them bounce around to turn into a boosted version and defeat everything on your path.",
+      footerLink: [
+        {
+          name: "Go to Itch page",
+          url: "https://datalioness.itch.io/armadillo-mayhem"
+        },
+        {
+          name: "See Trailer",
+          url: "https://youtu.be/xTdDhn9c2bg"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -226,8 +251,25 @@ const jamProjects = {
         }
         //  you can add extra buttons here.
       ]
+    },
+    {
+      images: [
+        require("./assets/images/DriftedAwayGameplay.png"),
+        require("./assets/images/DriftedAwayGameplay2.png")
+      ],
+      projectName: "Drifted Away",
+      projectDesc:
+        "Drifted away is a side scrolling game where you play as a cloud and have to push a raft across the ocean. Be careful though! There are many obstacles you have to avoid when guiding the raft around. Blow stuff away, destroy them with your lightning bolts! Made in 3 days for the CMGT Game Jam 2024. For this project I was responsible for Tech Design and Gameplay programming.",
+      footerLink: [
+        {
+          name: "Go to Itch page",
+          url: "https://mrsxythe.itch.io/cmgt-gameham-2024"
+        }
+        //  you can add extra buttons here.
+      ]
     }
   ],
+
   display: true // Set false to hide this section, defaults to true
 };
 

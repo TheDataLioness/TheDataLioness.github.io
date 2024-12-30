@@ -28,6 +28,26 @@
   transition: 0.2s ease-in;
 }
 
+.icon-button img {
+  color: $textColorDark;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin-bottom: 10px;
+  transition: 0.2s ease-in;
+}
+
 .facebook i {
   background-color: $faceBook;
 }
@@ -70,6 +90,7 @@
 
 /* Hover Transition */
 .twitter i:hover,
+.itchio i:hover,
 .google i:hover,
 .gitlab i:hover,
 .github i:hover,

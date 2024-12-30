@@ -1,6 +1,8 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+let itchLogo = require("../../assets/images/itch_logo.png");
+let blskyLogo = require("../../assets/images/BlueSkyLogo.png");
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -16,6 +18,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-github"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.itchio ? (
+        <a
+          href={socialMediaLinks.itchio}
+          className="icon-button itchio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={itchLogo} className="itchImg" alt={"itchlogo"}></img>
           <span></span>
         </a>
       ) : null}
@@ -88,6 +102,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-twitter"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.blsky ? (
+        <a
+          href={socialMediaLinks.blsky}
+          className="icon-button blsky"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={blskyLogo} className="fab" alt={"blskylogo"}></img>
           <span></span>
         </a>
       ) : null}
