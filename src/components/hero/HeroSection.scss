@@ -9,16 +9,55 @@
   opacity: 90%;
 }
 
-.hero-container {
-  //animation-name: fade;
-  //animation-duration: 5s;
-  //animation-timing-function: scroll(block nearest);
-
-  animation-name: fade;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-  animation-direction: alternate;
-  animation-timeline: scroll(block nearest);
+/** Internet Explorer */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .hero-container {
+    animation-name: fade;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    animation-direction: alternate;
+    animation-timeline: scroll();
+  }
 }
+
+/** Microsoft Edge */
+@supports (-ms-ime-align: auto) {
+  .hero-container {
+    animation-name: fade;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    animation-direction: alternate;
+    animation-timeline: scroll();
+  }
+}
+
+/** Mozilla Firefox */
+@-moz-document url-prefix() {
+  .hero-container {
+    visibility: hidden;
+    opacity: 0%;
+  }
+}
+
+/** Safari */
+@media not all and (min-resolution: 0.001dpcm) {
+  .hero-container {
+    visibility: hidden;
+    opacity: 0%;
+  }
+}
+
+/** Chrominum */
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  .hero-container {
+    animation-name: fade;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    animation-direction: alternate;
+    animation-timeline: scroll();
+  }
+}
+
+
+
+
 
 @keyframes fade {
   0% {
@@ -31,3 +70,8 @@
     opacity: 0%;
   }
 }
+
+
+
+
+
