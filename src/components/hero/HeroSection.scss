@@ -1,0 +1,33 @@
+#herovideo {
+  position: fixed;
+  width:110%;
+  height:110%;
+  left:-5%;
+  top:-5%;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 90%;
+}
+
+.hero-container {
+  //animation-name: fade;
+  //animation-duration: 5s;
+  //animation-timing-function: scroll(block nearest);
+
+  animation-name: fade;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-direction: alternate;
+  animation-timeline: scroll(block nearest);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 50%;
+  }
+  10% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}

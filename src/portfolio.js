@@ -23,7 +23,7 @@ const greeting = {
   username: "DataLioness",
   title: "Heya, I'm Damy",
   subTitle: emoji(
-    "I'm a Gameplay Programmer and idk what else to put here yet, but I'm sure I'll figure it out soon! 🚀"
+    "I'm a Tech Designer / Gameplay Programmer studying at Breda University of Applied Sciences! 🚀"
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -213,6 +213,11 @@ const bigProjects = {
           url: "https://youtu.be/xTdDhn9c2bg"
         }
       ]
+    },
+    {
+      images: [],
+      projectName: "Viewfinder Feature Recreation",
+      projectDesc: "Test123"
     }
   ],
   display: true // Set false to hide this section, defaults to true
