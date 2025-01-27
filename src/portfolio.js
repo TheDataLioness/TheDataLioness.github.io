@@ -43,41 +43,45 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "A few things I do",
-  subTitle: "IM A GAMEPLAY PROGRAMMER HAS SPECIALIZED IN A FEW THINGS.",
+  title: "About me in short",
+  subTitle: "IM A GAMEPLAY PROGRAMMER STUDYING TECHNICAL DESIGN AT BUASoki v",
   skills: [
-    emoji("⚡ Have been creating gameplay experiences for a few years now."),
-    emoji("⚡ I always try to learn new things and improve my skills.")
+    emoji(
+      "⚡ Have been creating gameplay experiences for over 10 years now. I started with ㅤㅤㅤ modding games back in 2014."
+    ),
+    emoji(
+      "⚡ I'm always looking for opportunities to learn and grow as a game developer"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "Git",
-      fontAwesomeClassname: "fab fa-git"
-    },
-    {
-      skillName: "Perforce",
-      fontAwesomeClassname: "fa fa-code-branch"
-    },
-    {
-      skillName: "C++",
-      fontAwesomeClassname: "fa fa-code"
-    },
-    {
-      skillName: "OpenGL",
-      fontAwesomeClassname: "fa fa-cube"
-    },
-    {
-      skillName: "Unreal Engine 5",
-      fontAwesomeClassname: "fa fa-gamepad"
-    },
-    {
-      skillName: "Technical Game Design",
-      fontAwesomeClassname: "fa fa-star"
-    }
+    // {
+    //   skillName: "Git",
+    //   fontAwesomeClassname: "fab fa-git"
+    // },
+    // {
+    //   skillName: "Perforce",
+    //   fontAwesomeClassname: "fa fa-code-branch"
+    // },
+    // {
+    //   skillName: "C++",
+    //   fontAwesomeClassname: "fa fa-code"
+    // },
+    // {
+    //   skillName: "OpenGL",
+    //   fontAwesomeClassname: "fa fa-cube"
+    // },
+    // {
+    //   skillName: "Unreal Engine 5",
+    //   fontAwesomeClassname: "fa fa-gamepad"
+    // },
+    // {
+    //   skillName: "Technical Game Design",
+    //   fontAwesomeClassname: "fa fa-star"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -94,7 +98,8 @@ const educationInfo = {
       duration: "September 2023 - Now",
       desc: "Currently studying at BUas to become a Gameplay Programmer in the AAA Industry.",
       descBullets: [
-        "C++",
+        "C++, Blueprinting",
+        "Game Design principles",
         "OpenGL, Unreal Engine 5",
         "Perforce",
         "Scrum, Agile"
@@ -192,7 +197,13 @@ const bigProjects = {
           name: "See Trailer",
           url: "https://www.youtube.com/watch?v=AKISXZogN5w"
         }
-        //  you can add extra buttons here.
+      ],
+      tags: [
+        {name: "Unreal Engine 5"},
+        {name: "Blueprinting"},
+        {name: "Gameplay Programming"},
+        {name: "Graphics Programming"},
+        {name: "Best Year 1 Tech | BUas | 2024"}
       ]
     },
     {
@@ -202,7 +213,7 @@ const bigProjects = {
       ],
       projectName: "Armadillo Mayhem",
       projectDesc:
-        "As my first project at BUas as as Technical Designer in Year 2 from switching from Programming to the Design & Production course that aligns more with my gameplay programming goals. You are an armadillo shooting up enemies. Roll and dash into enemies to damage them bounce around to turn into a boosted version and defeat everything on your path.",
+        "As my first project at BUas as a Technical Designer in Year 2 from switching from Programming to the Design & Production course that aligns more with my gameplay programming goals. You are an armadillo shooting up enemies. Roll and dash into enemies to damage them bounce around to turn into a boosted version and defeat everything on your path.",
       footerLink: [
         {
           name: "Go to Itch page",
@@ -212,12 +223,41 @@ const bigProjects = {
           name: "See Trailer",
           url: "https://youtu.be/xTdDhn9c2bg"
         }
+      ],
+      tags: [
+        {name: "Unreal Engine 5"},
+        {name: "Blueprinting"},
+        {name: "Technical Design"}
       ]
     },
     {
-      images: [],
+      images: [
+        require("./assets/images/ViewfinderCamera.jpg"),
+        require("./assets/images/ViewfinderPhoto.jpg"),
+        require("./assets/images/ViewfinderBridge.jpg")
+      ],
       projectName: "Viewfinder Feature Recreation",
-      projectDesc: "Test123"
+      projectDesc:
+        "As my second project at BUas as a Technical Designer, I recreated the core mechanic of Viewfinder in Unreal Engine 5. This mechanic lets players take pictures and place/blend them into the world.\n" +
+        "\n" +
+        "To showcase the functionality and creative potential of this mechanic, I designed a demo level that demonstrates its potential.",
+      tags: [
+        {name: "Unreal Engine 5"},
+        {name: "Blueprinting"},
+        {name: "C++"},
+        {name: "Technical Design"},
+        {name: "Gameplay Programming"}
+      ],
+      footerLink: [
+        {
+          name: "View pipeline videos",
+          url: "https://www.youtube.com/playlist?list=PLHxTDmjUToZ28CHMKOgWRPcggfd53Dw_p"
+        },
+        {
+          name: "View Showcase Video",
+          url: "https://www.youtube.com/watch?v=PcrpUXnaqrA"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -237,7 +277,12 @@ const jamProjects = {
           name: "Go to Itch page",
           url: "https://spel16.itch.io/wolfish"
         }
-        //  you can add extra buttons here.
+      ],
+      tags: [
+        {name: "Unreal Engine 5"},
+        {name: "Blueprinting"},
+        {name: "Gameplay Programming"},
+        {name: "CMGT Game Jam 2024 #1"}
       ]
     },
     {
@@ -254,11 +299,20 @@ const jamProjects = {
           name: "Go to Itch page",
           url: "https://datalioness.itch.io/disconnected"
         }
-        //  you can add extra buttons here.
+      ],
+      tags: [
+        {name: "Unreal Engine 5"},
+        {name: "Blueprinting"},
+        {name: "Gameplay Programming"},
+        {name: "Technical Design"},
+        {name: "Level Design"},
+        {name: "Solo Project"},
+        {name: "Kenney Game Jam 2024"}
       ]
     },
     {
       images: [
+        require("./assets/images/DriftedAwayLogo.png"),
         require("./assets/images/DriftedAwayGameplay.png"),
         require("./assets/images/DriftedAwayGameplay2.png")
       ],
@@ -270,7 +324,40 @@ const jamProjects = {
           name: "Go to Itch page",
           url: "https://mrsxythe.itch.io/cmgt-gameham-2024"
         }
-        //  you can add extra buttons here.
+      ],
+      tags: [
+        {name: "Unreal Engine 5"},
+        {name: "Blueprinting"},
+        {name: "Technical Design"},
+        {name: "Gameplay Programming"},
+        {name: "CMGT Game Jam 2025 #1"}
+      ]
+    },
+    {
+      images: [
+        require("./assets/images/SoakedInSinLogo.png"),
+        require("./assets/images/SoakedInSinGameplayOne.png"),
+        require("./assets/images/SoakedInSinGameplayTwo.png"),
+        require("./assets/images/SoakedInSinGameplayThree.png")
+      ],
+      projectName: "Soaked in Sin",
+      projectDesc:
+        "Soaked in Sin is an anthology of three games set in the imagination of a 6-year-old taking a bath. The first game being a collection of micro games, players make the biggest bubble, try to keep a bubble from popping, race a bubble through the bath, and trying to dodge lego bricks. In the second game, players use different bubble bullets in a first-person shooter, and in the third game, they clean up the mess before Mom gets back. I worked as a Gameplay Programmer on this project. This project was made for Global Game Jam 2025 in 48 hours with a group of 12 people.",
+      tags: [
+        {name: "Unreal Engine 5"},
+        {name: "Blueprinting"},
+        {name: "Gameplay Programming"},
+        {name: "Global Game Jam 2025"}
+      ],
+      footerLink: [
+        {
+          name: "Go to Itch page",
+          url: "https://datalioness.itch.io/soaked-in-sin"
+        },
+        {
+          name: "See Trailer",
+          url: "https://youtu.be/GNtSb0M_6_w"
+        }
       ]
     }
   ],

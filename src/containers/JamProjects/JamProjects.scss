@@ -88,6 +88,28 @@
   transition: 0.2s ease-in;
 }
 
+.jam-project-card-footer span.jam-project-tag-actualtag {
+  background: #0e76a8;
+  color: $lightBackground3;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.5;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0 0.75em;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.split-line {
+  width: 50%;
+}
+
 @media (max-width: 768px) {
   .jam-project-subtitle {
     font-size: 16px;

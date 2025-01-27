@@ -73,6 +73,26 @@ export default function JamProject() {
                     >
                       {project.projectName}
                     </h5>
+                    <hr className="split-line"></hr>
+                    {project.tags ? (
+                      <div className="jam-project-card-footer">
+                        {project.tags.map((tag, i) => {
+                          return (
+                            <span
+                              key={i}
+                              className={
+                                isDark
+                                  ? "dark-mode jam-project-tag-actualtag"
+                                  : "jam-project-tag-actualtag"
+                              }
+                            >
+                              {tag.name}
+                            </span>
+                          );
+                        })}
+                      </div>
+                    ) : null}
+
                     <p
                       className={
                         isDark
