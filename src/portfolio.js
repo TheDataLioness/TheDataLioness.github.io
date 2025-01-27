@@ -44,10 +44,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "About me in short",
-  subTitle: "IM A GAMEPLAY PROGRAMMER STUDYING TECHNICAL DESIGN AT BUASoki v",
+  subTitle: "IM A GAMEPLAY PROGRAMMER STUDYING TECHNICAL DESIGN AT BUAS",
   skills: [
     emoji(
-      "⚡ Have been creating gameplay experiences for over 10 years now. I started with ㅤㅤㅤ modding games back in 2014."
+      "⚡ Have been creating gameplay experiences for over 10 years now. I started with modding games back in 2014."
     ),
     emoji(
       "⚡ I'm always looking for opportunities to learn and grow as a game developer"
