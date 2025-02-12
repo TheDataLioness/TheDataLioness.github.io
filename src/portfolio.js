@@ -58,30 +58,30 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    // {
-    //   skillName: "Git",
-    //   fontAwesomeClassname: "fab fa-git"
-    // },
-    // {
-    //   skillName: "Perforce",
-    //   fontAwesomeClassname: "fa fa-code-branch"
-    // },
-    // {
-    //   skillName: "C++",
-    //   fontAwesomeClassname: "fa fa-code"
-    // },
-    // {
-    //   skillName: "OpenGL",
-    //   fontAwesomeClassname: "fa fa-cube"
-    // },
-    // {
-    //   skillName: "Unreal Engine 5",
-    //   fontAwesomeClassname: "fa fa-gamepad"
-    // },
-    // {
-    //   skillName: "Technical Game Design",
-    //   fontAwesomeClassname: "fa fa-star"
-    // }
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "Perforce",
+      fontAwesomeClassname: "fa fa-code-branch"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "fa fa-code"
+    },
+    {
+      skillName: "OpenGL",
+      fontAwesomeClassname: "fa fa-cube"
+    },
+    {
+      skillName: "Unreal Engine 5",
+      fontAwesomeClassname: "fa fa-gamepad"
+    },
+    {
+      skillName: "Technical Game Design",
+      fontAwesomeClassname: "fa fa-star"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -124,7 +124,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Unreal Engine",
@@ -178,58 +178,14 @@ const openSource = {
 const bigProjects = {
   title: "School Projects",
   subtitle: "The projects I've worked on at school.",
+  projects: [],
+  display: false // Set false to hide this section, defaults to true
+};
+
+const jamProjects = {
+  title: "Projects",
+  subtitle: "This is a list of ordered by my most proud projects.",
   projects: [
-    {
-      images: [
-        require("./assets/images/Ortus_Thumbnail.png"),
-        require("./assets/images/ORTUS_GameplayOne.png"),
-        require("./assets/images/ORTUS_GameplayTwo.png")
-      ],
-      projectName: "ORTUS",
-      projectDesc:
-        "First year project at BUas, a Twin-stick shooter game made in Unreal Engine 5.4.",
-      footerLink: [
-        {
-          name: "Go to Itch page",
-          url: "https://buas.itch.io/team-cumin"
-        },
-        {
-          name: "See Trailer",
-          url: "https://www.youtube.com/watch?v=AKISXZogN5w"
-        }
-      ],
-      tags: [
-        {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
-        {name: "Gameplay Programming"},
-        {name: "Graphics Programming"},
-        {name: "Best Year 1 Tech | BUas | 2024"}
-      ]
-    },
-    {
-      images: [
-        require("./assets/images/ArmadilloMayhem2.png"),
-        require("./assets/images/ArmadilloMayhem1.png")
-      ],
-      projectName: "Armadillo Mayhem",
-      projectDesc:
-        "As my first project at BUas as a Technical Designer in Year 2 from switching from Programming to the Design & Production course that aligns more with my gameplay programming goals. You are an armadillo shooting up enemies. Roll and dash into enemies to damage them bounce around to turn into a boosted version and defeat everything on your path.",
-      footerLink: [
-        {
-          name: "Go to Itch page",
-          url: "https://datalioness.itch.io/armadillo-mayhem"
-        },
-        {
-          name: "See Trailer",
-          url: "https://youtu.be/xTdDhn9c2bg"
-        }
-      ],
-      tags: [
-        {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
-        {name: "Technical Design"}
-      ]
-    },
     {
       images: [
         require("./assets/images/ViewfinderCamera.jpg"),
@@ -258,37 +214,88 @@ const bigProjects = {
           url: "https://www.youtube.com/watch?v=PcrpUXnaqrA"
         }
       ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-const jamProjects = {
-  title: "Game Jam Projects",
-  subtitle: "Projects I've made for Game Jams I attended.",
-  projects: [
+    },
     {
-      images: [require("./assets/images/WolFish_Thumbnail.png")],
-      projectName: "WolFish",
+      images: [
+        require("./assets/images/ORTUS_GameplayOne.png"),
+        require("./assets/images/Ortus_Thumbnail.png"),
+        require("./assets/images/ORTUS_GameplayTwo.png")
+      ],
+      projectName: "ORTUS",
       projectDesc:
-        "Play as a fish that transcends dimensions and transform into a wolf. Made in 3 days for the CMGT Game Jam #3 2023. For this project I was resposible for all of the programming inside of the game.",
+        "First year project at BUas, a Twin-stick shooter game made in Unreal Engine 5.4.",
       footerLink: [
         {
           name: "Go to Itch page",
-          url: "https://spel16.itch.io/wolfish"
+          url: "https://buas.itch.io/team-cumin"
+        },
+        {
+          name: "See Trailer",
+          url: "https://www.youtube.com/watch?v=AKISXZogN5w"
         }
       ],
       tags: [
         {name: "Unreal Engine 5"},
         {name: "Blueprinting"},
         {name: "Gameplay Programming"},
-        {name: "CMGT Game Jam 2024 #1"}
+        {name: "Graphics Programming"},
+        {name: "Best Year 1 Tech | BUas | 2024"}
       ]
     },
     {
       images: [
-        require("./assets/images/DisconnectedThumbnail.png"),
+        require("./assets/images/DriftedAwayGameplay.png"),
+        require("./assets/images/DriftedAwayLogo.png"),
+        require("./assets/images/DriftedAwayGameplay2.png")
+      ],
+      projectName: "Drifted Away",
+      projectDesc:
+        "Drifted away is a side scrolling game where you play as a cloud and have to push a raft across the ocean. Be careful though! There are many obstacles you have to avoid when guiding the raft around. Blow stuff away, destroy them with your lightning bolts! Made in 3 days for the CMGT Game Jam 2024. For this project I was responsible for Tech Design and Gameplay programming.",
+      footerLink: [
+        {
+          name: "Go to Itch page",
+          url: "https://mrsxythe.itch.io/cmgt-gameham-2024"
+        }
+      ],
+      tags: [
+        {name: "Unreal Engine 5"},
+        {name: "Blueprinting"},
+        {name: "Technical Design"},
+        {name: "Gameplay Programming"},
+        {name: "CMGT Game Jam 2025 #1"}
+      ]
+    },
+    {
+      images: [
+        require("./assets/images/SoakedInSinGameplayTwo.png"),
+        require("./assets/images/SoakedInSinLogo.png"),
+        require("./assets/images/SoakedInSinGameplayOne.png"),
+        require("./assets/images/SoakedInSinGameplayThree.png")
+      ],
+      projectName: "Soaked in Sin",
+      projectDesc:
+        "Soaked in Sin is an anthology of three games set in the imagination of a 6-year-old taking a bath. The first game being a collection of micro games, players make the biggest bubble, try to keep a bubble from popping, race a bubble through the bath, and trying to dodge lego bricks. In the second game, players use different bubble bullets in a first-person shooter, and in the third game, they clean up the mess before Mom gets back. I worked as a Gameplay Programmer on this project. This project was made for Global Game Jam 2025 in 48 hours with a group of 12 people.",
+      tags: [
+        {name: "Unreal Engine 5"},
+        {name: "Blueprinting"},
+        {name: "Gameplay Programming"},
+        {name: "Global Game Jam 2025"}
+      ],
+      footerLink: [
+        {
+          name: "Go to Itch page",
+          url: "https://datalioness.itch.io/soaked-in-sin"
+        },
+        {
+          name: "See Trailer",
+          url: "https://youtu.be/GNtSb0M_6_w"
+        }
+      ]
+    },
+    {
+      images: [
         require("./assets/images/Disconnected_GameplayOne.png"),
+        require("./assets/images/DisconnectedThumbnail.png"),
         require("./assets/images/Disconnected_GameplayTwo.png")
       ],
       projectName: "Disconnected...",
@@ -312,52 +319,48 @@ const jamProjects = {
     },
     {
       images: [
-        require("./assets/images/DriftedAwayLogo.png"),
-        require("./assets/images/DriftedAwayGameplay.png"),
-        require("./assets/images/DriftedAwayGameplay2.png")
+        require("./assets/images/ArmadilloMayhem1.png"),
+        require("./assets/images/ArmadilloMayhem2.png")
       ],
-      projectName: "Drifted Away",
+      projectName: "Armadillo Mayhem",
       projectDesc:
-        "Drifted away is a side scrolling game where you play as a cloud and have to push a raft across the ocean. Be careful though! There are many obstacles you have to avoid when guiding the raft around. Blow stuff away, destroy them with your lightning bolts! Made in 3 days for the CMGT Game Jam 2024. For this project I was responsible for Tech Design and Gameplay programming.",
+        "As my first project at BUas as a Technical Designer in Year 2 from switching from Programming to the Design & Production course that aligns more with my gameplay programming goals. You are an armadillo shooting up enemies. Roll and dash into enemies to damage them bounce around to turn into a boosted version and defeat everything on your path.",
       footerLink: [
         {
           name: "Go to Itch page",
-          url: "https://mrsxythe.itch.io/cmgt-gameham-2024"
+          url: "https://datalioness.itch.io/armadillo-mayhem"
+        },
+        {
+          name: "See Trailer",
+          url: "https://youtu.be/xTdDhn9c2bg"
         }
       ],
       tags: [
         {name: "Unreal Engine 5"},
         {name: "Blueprinting"},
-        {name: "Technical Design"},
-        {name: "Gameplay Programming"},
-        {name: "CMGT Game Jam 2025 #1"}
+        {name: "Technical Design"}
       ]
     },
     {
       images: [
-        require("./assets/images/SoakedInSinLogo.png"),
-        require("./assets/images/SoakedInSinGameplayOne.png"),
-        require("./assets/images/SoakedInSinGameplayTwo.png"),
-        require("./assets/images/SoakedInSinGameplayThree.png")
+        require("./assets/images/WolFishGameplayOne.png"),
+        require("./assets/images/WolFishGameplayTwo.png"),
+        require("./assets/images/WolFish_Thumbnail.png")
       ],
-      projectName: "Soaked in Sin",
+      projectName: "WolFish",
       projectDesc:
-        "Soaked in Sin is an anthology of three games set in the imagination of a 6-year-old taking a bath. The first game being a collection of micro games, players make the biggest bubble, try to keep a bubble from popping, race a bubble through the bath, and trying to dodge lego bricks. In the second game, players use different bubble bullets in a first-person shooter, and in the third game, they clean up the mess before Mom gets back. I worked as a Gameplay Programmer on this project. This project was made for Global Game Jam 2025 in 48 hours with a group of 12 people.",
+        "Play as a fish that transcends dimensions and transform into a wolf. Made in 3 days for the CMGT Game Jam #3 2023. For this project I was resposible for all of the programming inside of the game.",
+      footerLink: [
+        {
+          name: "Go to Itch page",
+          url: "https://spel16.itch.io/wolfish"
+        }
+      ],
       tags: [
         {name: "Unreal Engine 5"},
         {name: "Blueprinting"},
         {name: "Gameplay Programming"},
-        {name: "Global Game Jam 2025"}
-      ],
-      footerLink: [
-        {
-          name: "Go to Itch page",
-          url: "https://datalioness.itch.io/soaked-in-sin"
-        },
-        {
-          name: "See Trailer",
-          url: "https://youtu.be/GNtSb0M_6_w"
-        }
+        {name: "CMGT Game Jam 2024 #1"}
       ]
     }
   ],

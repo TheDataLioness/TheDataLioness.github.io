@@ -1,10 +1,10 @@
 import React, {useContext} from "react";
-import "./JamProjects.scss";
+import "./GeneralProjects.scss";
 import {jamProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function JamProject() {
+export default function GeneralProjects() {
   function openUrlInNewTab(url) {
     if (!url) {
       return;
@@ -17,6 +17,45 @@ export default function JamProject() {
   if (!jamProjects.display) {
     return null;
   }
+
+  let slideIndex = [];
+
+  function plusSlides(n, projectName) {
+    showSlides((slideIndex[projectName] += n), projectName);
+  }
+
+  function showSlides(n, projectName) {
+    if (!slideIndex[projectName]) {
+      slideIndex[projectName] = 1;
+
+      console.log(slideIndex);
+    }
+
+    let i;
+    let x = document.getElementsByClassName(projectName);
+    if (n > x.length) {
+      slideIndex[projectName] = 1;
+    }
+    if (n < 1) {
+      slideIndex[projectName] = x.length;
+    }
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    try {
+      x[slideIndex[projectName] - 1].style.display = "block";
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+  function playShow(projectName) {
+    setTimeout(() => {
+      plusSlides(1, projectName);
+      playShow(projectName);
+    }, 5000);
+  }
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
@@ -52,10 +91,16 @@ export default function JamProject() {
                       ></img>
                     </div>
                   ) : null}
-                  <div className="jam-project-image-gallery">
+                  <div className="slideshow-container">
                     {project.images.map((img, i) => {
                       return (
-                        <div className="jam-project-image">
+                        <div
+                          className={
+                            "slideshow-slide fading " +
+                            project.projectName.replace(/\s/g, "-") +
+                            "-slideshow"
+                          }
+                        >
                           <img
                             src={img}
                             alt={project.projectName}
@@ -64,6 +109,37 @@ export default function JamProject() {
                         </div>
                       );
                     })}
+                    <div className={"slideshow-slide"}>
+                      {setTimeout(() => {
+                        showSlides(
+                          1,
+                          project.projectName.replace(/\s/g, "-") + "-slideshow"
+                        );
+                      }, 100)}
+                      {/*{ setTimeout(() => { playShow( project.projectName.replace(/\s/g, "-") + "-slideshow")}, 100 ) }*/}
+                    </div>
+                    <a
+                      className="prev"
+                      onClick={() => {
+                        plusSlides(
+                          -1,
+                          project.projectName.replace(/\s/g, "-") + "-slideshow"
+                        );
+                      }}
+                    >
+                      &#10094;
+                    </a>
+                    <a
+                      className="next"
+                      onClick={() => {
+                        plusSlides(
+                          1,
+                          project.projectName.replace(/\s/g, "-") + "-slideshow"
+                        );
+                      }}
+                    >
+                      &#10095;
+                    </a>
                   </div>
                   <div className="jam-project-detail">
                     <h5
