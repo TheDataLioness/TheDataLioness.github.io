@@ -26,7 +26,8 @@ import "./Main.scss";
 const Main = () => {
   const darkPref = false;
   let [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
-  const [isShowingSplashAnimation, setIsShowingSplashAnimation] = useState(true);
+  const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
+    useState(true);
 
   isDark = false;
 
