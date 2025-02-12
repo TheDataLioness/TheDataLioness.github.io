@@ -22,10 +22,8 @@
 /** Microsoft Edge */
 @supports (-ms-ime-align: auto) {
   .hero-container {
-    animation-name: fade;
-    animation-duration: 1ms; /* Firefox requires this to apply the animation */
-    animation-direction: alternate;
-    animation-timeline: scroll();
+    visibility: hidden;
+    opacity: 0%;
   }
 }
 
