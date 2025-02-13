@@ -244,29 +244,6 @@ const jamProjects = {
     },
     {
       images: [
-        require("./assets/images/DriftedAwayGameplay.png"),
-        require("./assets/images/DriftedAwayLogo.png"),
-        require("./assets/images/DriftedAwayGameplay2.png")
-      ],
-      projectName: "Drifted Away",
-      projectDesc:
-        "Drifted away is a side scrolling game where you play as a cloud and have to push a raft across the ocean. Be careful though! There are many obstacles you have to avoid when guiding the raft around. Blow stuff away, destroy them with your lightning bolts! Made in 3 days for the CMGT Game Jam 2024. For this project I was responsible for Tech Design and Gameplay programming.",
-      footerLink: [
-        {
-          name: "Go to Itch page",
-          url: "https://mrsxythe.itch.io/cmgt-gameham-2024"
-        }
-      ],
-      tags: [
-        {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
-        {name: "Technical Design"},
-        {name: "Gameplay Programming"},
-        {name: "CMGT Game Jam 2025 #1"}
-      ]
-    },
-    {
-      images: [
         require("./assets/images/SoakedInSinGameplayTwo.png"),
         require("./assets/images/SoakedInSinLogo.png"),
         require("./assets/images/SoakedInSinGameplayOne.png"),
@@ -290,6 +267,29 @@ const jamProjects = {
           name: "See Trailer",
           url: "https://youtu.be/GNtSb0M_6_w"
         }
+      ]
+    },
+    {
+      images: [
+        require("./assets/images/DriftedAwayGameplay.png"),
+        require("./assets/images/DriftedAwayLogo.png"),
+        require("./assets/images/DriftedAwayGameplay2.png")
+      ],
+      projectName: "Drifted Away",
+      projectDesc:
+        "Drifted away is a side scrolling game where you play as a cloud and have to push a raft across the ocean. Be careful though! There are many obstacles you have to avoid when guiding the raft around. Blow stuff away, destroy them with your lightning bolts! Made in 3 days for the CMGT Game Jam 2024. For this project I was responsible for Tech Design and Gameplay programming.",
+      footerLink: [
+        {
+          name: "Go to Itch page",
+          url: "https://mrsxythe.itch.io/cmgt-gameham-2024"
+        }
+      ],
+      tags: [
+        {name: "Unreal Engine 5"},
+        {name: "Blueprinting"},
+        {name: "Technical Design"},
+        {name: "Gameplay Programming"},
+        {name: "CMGT Game Jam 2025 #1"}
       ]
     },
     {
