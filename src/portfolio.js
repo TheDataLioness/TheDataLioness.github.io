@@ -188,7 +188,7 @@ const jamProjects = {
   projects: [
     {
       images: [
-        require("./assets/images/ViewfinderPortfolioShow.gif"),
+        require("./assets/images/ViewfinderShowcaseForPortfolio.gif"),
         require("./assets/images/ViewfinderCameraBridgePicture.png"),
         require("./assets/images/ViewfinderPhoto.jpg"),
         require("./assets/images/ViewfinderBridge.jpg")
