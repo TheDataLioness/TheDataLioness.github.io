@@ -188,6 +188,7 @@ const jamProjects = {
   projects: [
     {
       images: [
+        require("./assets/images/ViewfinderPortfolioShow.gif"),
         require("./assets/images/ViewfinderCameraBridgePicture.png"),
         require("./assets/images/ViewfinderPhoto.jpg"),
         require("./assets/images/ViewfinderBridge.jpg")
@@ -224,6 +225,7 @@ const jamProjects = {
       projectName: "ORTUS",
       projectDesc:
         "First year project at BUas, a Twin-stick shooter game made in Unreal Engine 5.4.",
+      blog: "https://portfolio-blogs-one.vercel.app/ortus",
       footerLink: [
         {
           name: "Go to Itch page",
@@ -232,6 +234,10 @@ const jamProjects = {
         {
           name: "See Trailer",
           url: "https://www.youtube.com/watch?v=AKISXZogN5w"
+        },
+        {
+          name: "Read the blog",
+          url: "https://portfolio-blogs-one.vercel.app/ortus"
         }
       ],
       tags: [
@@ -289,11 +295,12 @@ const jamProjects = {
         {name: "Blueprinting"},
         {name: "Technical Design"},
         {name: "Gameplay Programming"},
-        {name: "CMGT Game Jam 2025 #1"}
+        {name: "CMGT Game Jam 2024 #1"}
       ]
     },
     {
       images: [
+        require("./assets/images/DisconnectedShowcase.gif"),
         require("./assets/images/Disconnected_GameplayOne.png"),
         require("./assets/images/DisconnectedThumbnail.png"),
         require("./assets/images/Disconnected_GameplayTwo.png")
@@ -360,7 +367,7 @@ const jamProjects = {
         {name: "Unreal Engine 5"},
         {name: "Blueprinting"},
         {name: "Gameplay Programming"},
-        {name: "CMGT Game Jam 2024 #1"}
+        {name: "CMGT Game Jam 2023 #1"}
       ]
     }
   ],
