@@ -300,7 +300,7 @@ const jamProjects = {
     },
     {
       images: [
-        require("./assets/images/DisconnectedShowcase.gif"),
+        require("./assets/images/DisconnectedShowcasePortfolio.gif"),
         require("./assets/images/Disconnected_GameplayOne.png"),
         require("./assets/images/DisconnectedThumbnail.png"),
         require("./assets/images/Disconnected_GameplayTwo.png")
