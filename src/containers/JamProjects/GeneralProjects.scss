@@ -195,6 +195,15 @@
   animation-duration: 1.5s;
 }
 
+.blog-click-title {
+  cursor: pointer;
+}
+
+.blog-click-title:hover {
+  color: #1da1f2;
+  scale: 120%;
+}
+
 @keyframes doFade {
   from {
     opacity: 0.4;

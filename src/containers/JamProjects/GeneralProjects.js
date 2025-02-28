@@ -142,13 +142,25 @@ export default function GeneralProjects() {
                     </a>
                   </div>
                   <div className="jam-project-detail">
+                    {project.blog ? (
                     <h5
                       className={
-                        isDark ? "dark-mode jam-card-title" : "jam-card-title"
+                        isDark ? "dark-mode jam-card-title blog-click-title" : "jam-card-title blog-click-title"
                       }
+                      onClick={() => openUrlInNewTab(project.blog)}
+                      title={'Click to view blog'}
                     >
                       {project.projectName}
                     </h5>
+                    ) : (
+                      <h5
+                        className={
+                          isDark ? "dark-mode jam-card-title" : "jam-card-title"
+                        }
+                      >
+                        {project.projectName}
+                      </h5>
+                    )}
                     <hr className="split-line"></hr>
                     {project.tags ? (
                       <div className="jam-project-card-footer">
