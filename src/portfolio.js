@@ -188,7 +188,7 @@ const jamProjects = {
   projects: [
     {
       images: [
-        require("./assets/images/ViewfinderShowcaseForPortfolio.gif"),
+        require("./assets/images/ViewfinderShowcase.webp"),
         require("./assets/images/ViewfinderCameraBridgePicture.png"),
         require("./assets/images/ViewfinderPhoto.jpg"),
         require("./assets/images/ViewfinderBridge.jpg")
@@ -300,7 +300,7 @@ const jamProjects = {
     },
     {
       images: [
-        require("./assets/images/DisconnectedShowcasePortfolio.gif"),
+        require("./assets/images/DisconnectedShowcase.webp"),
         require("./assets/images/Disconnected_GameplayOne.png"),
         require("./assets/images/DisconnectedThumbnail.png"),
         require("./assets/images/Disconnected_GameplayTwo.png")
