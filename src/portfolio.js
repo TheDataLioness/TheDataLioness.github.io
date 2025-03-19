@@ -44,13 +44,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "About me in short",
-  subTitle: "IM A GAMEPLAY PROGRAMMER STUDYING TECHNICAL DESIGN AT BUAS",
+  subTitle: "I'M A GAMEPLAY PROGRAMMER STUDYING TECHNICAL DESIGN AT BUAS",
   skills: [
     emoji(
-      "⚡ Have been creating gameplay experiences for over 10 years now. I started with modding games back in 2014."
+      "⚡ I have been creating gameplay experiences for over 10 years now. I started with modding games back in 2014."
     ),
     emoji(
-      "⚡ I'm always looking for opportunities to learn and grow as a game developer"
+      "⚡ I'm always looking for opportunities to learn and grow as a game developer."
     )
   ],
 
@@ -96,7 +96,7 @@ const educationInfo = {
       logo: require("./assets/images/BUas_Logo.jpg"),
       subHeader: "Bachelor Degree - Creative Media & Game Technologies",
       duration: "September 2023 - Now",
-      desc: "Currently studying at BUas to become a Gameplay Programmer in the AAA Industry.",
+      desc: "I am currently studying at BUas to become a Gameplay Programmer in the AAA Industry.",
       descBullets: [
         "C++, Blueprinting",
         "Game Design principles",
@@ -110,11 +110,11 @@ const educationInfo = {
       logo: require("./assets/images/logo-roc-nijmegen.png"),
       subHeader: "MBO - Software Development",
       duration: "September 2018 - 🎓 July 2022",
-      desc: "Here I learned the basics of programming and mainly building websites.",
+      desc: "Here, I learned the basics of programming and mainly building websites.",
       descBullets: [
         "HTML, CSS, JavaScript, PHP, SQL, C#, Java",
         "Laravel, Vue.JS, React",
-        "Git, Github",
+        "Git, GitHub",
         "Scrum, Agile"
       ]
     }
@@ -198,6 +198,7 @@ const jamProjects = {
         "As my second project at BUas as a Technical Designer, I recreated the core mechanic of Viewfinder in Unreal Engine 5. This mechanic lets players take pictures and place/blend them into the world.\n" +
         "\n" +
         "To showcase the functionality and creative potential of this mechanic, I designed a demo level that demonstrates its potential.",
+      blog: "https://portfolio-blogs-one.vercel.app/viewfinder",
       tags: [
         {name: "Unreal Engine 5"},
         {name: "Blueprinting"},
@@ -213,6 +214,10 @@ const jamProjects = {
         {
           name: "View Showcase Video",
           url: "https://www.youtube.com/watch?v=PcrpUXnaqrA"
+        },
+        {
+          name: "Read the blog",
+          url: "https://portfolio-blogs-one.vercel.app/viewfinder"
         }
       ]
     },
