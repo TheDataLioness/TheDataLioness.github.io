@@ -49,13 +49,6 @@ export default function GeneralProjects() {
     }
   }
 
-  function playShow(projectName) {
-    setTimeout(() => {
-      plusSlides(1, projectName);
-      playShow(projectName);
-    }, 5000);
-  }
-
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
@@ -116,8 +109,8 @@ export default function GeneralProjects() {
                           project.projectName.replace(/\s/g, "-") + "-slideshow"
                         );
                       }, 100)}
-                      {/*{ setTimeout(() => { playShow( project.projectName.replace(/\s/g, "-") + "-slideshow")}, 100 ) }*/}
                     </div>
+
                     <a
                       className="prev"
                       onClick={() => {
@@ -189,9 +182,8 @@ export default function GeneralProjects() {
                           ? "dark-mode jam-card-subtitle"
                           : "jam-card-subtitle"
                       }
-                    >
-                      {project.projectDesc}
-                    </p>
+                      dangerouslySetInnerHTML={{__html: project.projectDesc}}
+                    ></p>
                     {project.footerLink ? (
                       <div className="jam-project-card-footer">
                         {project.footerLink.map((link, i) => {

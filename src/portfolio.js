@@ -195,14 +195,12 @@ const jamProjects = {
       ],
       projectName: "Viewfinder Feature Recreation",
       projectDesc:
-        "As my second project at BUas as a Technical Designer, I recreated the core mechanic of Viewfinder in Unreal Engine 5. This mechanic lets players take pictures and place/blend them into the world.\n" +
-        "\n" +
-        "To showcase the functionality and creative potential of this mechanic, I designed a demo level that demonstrates its potential.",
+        "As my second project (Block B) at BUas as a <b>Technical Designer</b>, I recreated the core mechanic of <b>Viewfinder</b> in Unreal Engine 5. This mechanic lets players take pictures and place/blend them into the world.<br>" +
+        "<br>To showcase the functionality and creative potential of this mechanic, I designed a demo level that demonstrates its potential.",
       blog: "https://portfolio-blogs-one.vercel.app/viewfinder",
       tags: [
         {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
-        {name: "C++"},
+        {name: "Blueprinting & C++"},
         {name: "Technical Design"},
         {name: "Gameplay Programming"}
       ],
@@ -229,7 +227,7 @@ const jamProjects = {
       ],
       projectName: "ORTUS",
       projectDesc:
-        "First year project at BUas, a Twin-stick shooter game made in Unreal Engine 5.4.",
+        "First year project at BUas, a <b>twin-stick shooter</b> game made in Unreal Engine 5.4. I worked on this project as <b>gameplay programmer</b> and worked primarily on building tools that allowed our designers to build gameplay experiences with.",
       blog: "https://portfolio-blogs-one.vercel.app/ortus",
       footerLink: [
         {
@@ -247,7 +245,6 @@ const jamProjects = {
       ],
       tags: [
         {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
         {name: "Gameplay Programming"},
         {name: "Graphics Programming"},
         {name: "Best Year 1 Tech | BUas | 2024"}
@@ -263,10 +260,9 @@ const jamProjects = {
       projectName: "Soaked in Sin",
       blog: "https://portfolio-blogs-one.vercel.app/soaked-in-sin",
       projectDesc:
-        "Soaked in Sin is an anthology of three games set in the imagination of a 6-year-old taking a bath. The first game being a collection of micro games, players make the biggest bubble, try to keep a bubble from popping, race a bubble through the bath, and trying to dodge lego bricks. In the second game, players use different bubble bullets in a first-person shooter, and in the third game, they clean up the mess before Mom gets back. I worked as a Gameplay Programmer on this project. This project was made for Global Game Jam 2025 in 48 hours with a group of 12 people.",
+        "Soaked in Sin is an anthology of <b>three games</b> set in the imagination of a 6-year-old taking a bath. The first game being a collection of micro games, players make the biggest bubble, try to keep a bubble from popping, race a bubble through the bath, and trying to dodge lego bricks. In the second game, players use different bubble bullets in a first-person shooter, and in the third game, they clean up the mess before Mom gets back. I worked as a <b>Gameplay Programmer</b> on this project. This project was made for <b>Global Game Jam 2025</b> in <b>48 hours</b> with a group of <b>12 people</b>.",
       tags: [
         {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
         {name: "Gameplay Programming"},
         {name: "Global Game Jam 2025"}
       ],
@@ -294,7 +290,7 @@ const jamProjects = {
       ],
       projectName: "Disconnected...",
       projectDesc:
-        "Step into the boots of a resourceful robot navigating a mysterious space station in Disconnected... Created for the  Kenney Jam 2024 in 48 hours, this game challenges you to traverse levels by connecting with cameras throughout the station. Each camera offers a unique perspective, altering how you view the world around you.",
+        "Step into the boots of a resourceful robot navigating a mysterious space station in Disconnected... Created for the  <b>Kenney Jam 2024</b> in <b>48 hours</b>, this game challenges you to traverse levels by connecting with cameras throughout the station. Each camera offers a unique perspective, altering how you view the world around you.This was a <b>solo project</b> made in <b>48 hours</b> using <b>Kenney.nl</b> assets.",
       footerLink: [
         {
           name: "Go to Itch page",
@@ -303,11 +299,9 @@ const jamProjects = {
       ],
       tags: [
         {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
         {name: "Gameplay Programming"},
         {name: "Technical Design"},
         {name: "Level Design"},
-        {name: "Solo Project"},
         {name: "Kenney Game Jam 2024"}
       ]
     },
@@ -319,7 +313,7 @@ const jamProjects = {
       ],
       projectName: "Drifted Away",
       projectDesc:
-        "Drifted away is a side scrolling game where you play as a cloud and have to push a raft across the ocean. Be careful though! There are many obstacles you have to avoid when guiding the raft around. Blow stuff away, destroy them with your lightning bolts! Made in 3 days for the CMGT Game Jam 2024. For this project I was responsible for Tech Design and Gameplay programming.",
+        "Drifted away is a <b>side scrolling</b> game where you play as a cloud and have to push a raft across the ocean. Be careful though! There are many obstacles you have to avoid when guiding the raft around. Blow stuff away, destroy them with your lightning bolts! <br>Made in <b>3 days</b> for the <b>CMGT Game Jam 2024</b>. For this project I was responsible for <b>Tech Design</b> and <b>Gameplay programming</b>.",
       footerLink: [
         {
           name: "Go to Itch page",
@@ -328,7 +322,6 @@ const jamProjects = {
       ],
       tags: [
         {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
         {name: "Technical Design"},
         {name: "Gameplay Programming"},
         {name: "CMGT Game Jam 2024 #1"}
@@ -341,7 +334,7 @@ const jamProjects = {
       ],
       projectName: "Armadillo Mayhem",
       projectDesc:
-        "As my first project at BUas as a Technical Designer in Year 2 from switching from Programming to the Design & Production course that aligns more with my gameplay programming goals. You are an armadillo shooting up enemies. Roll and dash into enemies to damage them bounce around to turn into a boosted version and defeat everything on your path.",
+        "As my first project at BUas as a <b>Technical Designer</b> in Year 2 from <b>switching from Programming to the Design & Production course</b> that aligns more with my gameplay programming goals. In this <b>twin-stick shooter</b> are an armadillo shooting up enemies. Roll and dash into enemies to damage them bounce around to turn into a boosted version and defeat everything on your path.",
       footerLink: [
         {
           name: "Go to Itch page",
@@ -352,11 +345,7 @@ const jamProjects = {
           url: "https://youtu.be/xTdDhn9c2bg"
         }
       ],
-      tags: [
-        {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
-        {name: "Technical Design"}
-      ]
+      tags: [{name: "Unreal Engine 5"}, {name: "Technical Design"}]
     },
     {
       images: [
@@ -366,7 +355,7 @@ const jamProjects = {
       ],
       projectName: "WolFish",
       projectDesc:
-        "Play as a fish that transcends dimensions and transform into a wolf. Made in 3 days for the CMGT Game Jam #3 2023. For this project I was resposible for all of the programming inside of the game.",
+        "Play as a fish that transcends dimensions and transform into a wolf. Made in <b>3 days</b> for the <b>CMGT Game Jam #3 2023</b>. For this project I was resposible for all of the programming inside of the game.",
       footerLink: [
         {
           name: "Go to Itch page",
