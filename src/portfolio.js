@@ -261,7 +261,7 @@ const jamProjects = {
         require("./assets/images/SoakedInSinGameplayThree.png")
       ],
       projectName: "Soaked in Sin",
-      "blog": "https://portfolio-blogs-one.vercel.app/soaked-in-sin",
+      blog: "https://portfolio-blogs-one.vercel.app/soaked-in-sin",
       projectDesc:
         "Soaked in Sin is an anthology of three games set in the imagination of a 6-year-old taking a bath. The first game being a collection of micro games, players make the biggest bubble, try to keep a bubble from popping, race a bubble through the bath, and trying to dodge lego bricks. In the second game, players use different bubble bullets in a first-person shooter, and in the third game, they clean up the mess before Mom gets back. I worked as a Gameplay Programmer on this project. This project was made for Global Game Jam 2025 in 48 hours with a group of 12 people.",
       tags: [
