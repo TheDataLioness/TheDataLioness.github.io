@@ -261,6 +261,7 @@ const jamProjects = {
         require("./assets/images/SoakedInSinGameplayThree.png")
       ],
       projectName: "Soaked in Sin",
+      "blog": "https://portfolio-blogs-one.vercel.app/soaked-in-sin",
       projectDesc:
         "Soaked in Sin is an anthology of three games set in the imagination of a 6-year-old taking a bath. The first game being a collection of micro games, players make the biggest bubble, try to keep a bubble from popping, race a bubble through the bath, and trying to dodge lego bricks. In the second game, players use different bubble bullets in a first-person shooter, and in the third game, they clean up the mess before Mom gets back. I worked as a Gameplay Programmer on this project. This project was made for Global Game Jam 2025 in 48 hours with a group of 12 people.",
       tags: [
@@ -277,30 +278,11 @@ const jamProjects = {
         {
           name: "See Trailer",
           url: "https://youtu.be/GNtSb0M_6_w"
-        }
-      ]
-    },
-    {
-      images: [
-        require("./assets/images/DriftedAwayGameplay.png"),
-        require("./assets/images/DriftedAwayLogo.png"),
-        require("./assets/images/DriftedAwayGameplay2.png")
-      ],
-      projectName: "Drifted Away",
-      projectDesc:
-        "Drifted away is a side scrolling game where you play as a cloud and have to push a raft across the ocean. Be careful though! There are many obstacles you have to avoid when guiding the raft around. Blow stuff away, destroy them with your lightning bolts! Made in 3 days for the CMGT Game Jam 2024. For this project I was responsible for Tech Design and Gameplay programming.",
-      footerLink: [
+        },
         {
-          name: "Go to Itch page",
-          url: "https://mrsxythe.itch.io/cmgt-gameham-2024"
+          name: "Read the blog",
+          url: "https://portfolio-blogs-one.vercel.app/soaked-in-sin"
         }
-      ],
-      tags: [
-        {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
-        {name: "Technical Design"},
-        {name: "Gameplay Programming"},
-        {name: "CMGT Game Jam 2024 #1"}
       ]
     },
     {
@@ -327,6 +309,29 @@ const jamProjects = {
         {name: "Level Design"},
         {name: "Solo Project"},
         {name: "Kenney Game Jam 2024"}
+      ]
+    },
+    {
+      images: [
+        require("./assets/images/DriftedAwayGameplay.png"),
+        require("./assets/images/DriftedAwayLogo.png"),
+        require("./assets/images/DriftedAwayGameplay2.png")
+      ],
+      projectName: "Drifted Away",
+      projectDesc:
+        "Drifted away is a side scrolling game where you play as a cloud and have to push a raft across the ocean. Be careful though! There are many obstacles you have to avoid when guiding the raft around. Blow stuff away, destroy them with your lightning bolts! Made in 3 days for the CMGT Game Jam 2024. For this project I was responsible for Tech Design and Gameplay programming.",
+      footerLink: [
+        {
+          name: "Go to Itch page",
+          url: "https://mrsxythe.itch.io/cmgt-gameham-2024"
+        }
+      ],
+      tags: [
+        {name: "Unreal Engine 5"},
+        {name: "Blueprinting"},
+        {name: "Technical Design"},
+        {name: "Gameplay Programming"},
+        {name: "CMGT Game Jam 2024 #1"}
       ]
     },
     {
