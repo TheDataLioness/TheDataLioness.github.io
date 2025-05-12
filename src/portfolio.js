@@ -374,7 +374,8 @@ const jamProjects = {
         require("./assets/images/BussinessCard_V4.png"),
         require("./assets/images/PrototypeShowcase.png")
       ],
-      projectName: "Damys Sandbox",
+      projectName: "Damy's Sandbox",
+      blog: "https://portfolio-blogs-one.vercel.app/damy-sandbox",
       projectDesc:
         "Damy’s Sandbox is a big <b>Unreal Project</b> where I try out and make a lot of different things where sometimes quite interesting <b>prototypes</b> pop out off.\n" +
         "In this blog I will be showing some of the highlights. <br><br> <b>DISCLAIMER:</b> These are <b>not polished</b> projects these are <b>very rough</b> prototypes that I’ve made in a very short amount of time to develop my skills next to bigger school projects.",
