@@ -13,7 +13,7 @@ export default function JamProject() {
     win.focus();
   }
 
-  const {isDark} = useContext(StyleContext);
+  const {isDark} = false; // NEVER DARKMODE
   if (!bigProjects.display) {
     return null;
   }
