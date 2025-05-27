@@ -199,6 +199,7 @@ const jamProjects = {
         "<br>To showcase the functionality and creative potential of this mechanic, I designed a demo level that demonstrates its potential.",
       blog: "https://portfolio-blogs-one.vercel.app/viewfinder",
       tags: [
+        {name: "Team Size: Solo"},
         {name: "Unreal Engine 5"},
         {name: "Blueprinting & C++"},
         {name: "Technical Design"},
@@ -244,6 +245,7 @@ const jamProjects = {
         }
       ],
       tags: [
+        {name: "Team Size: 12"},
         {name: "Unreal Engine 5"},
         {name: "Gameplay Programming"},
         {name: "Graphics Programming"},
@@ -262,6 +264,7 @@ const jamProjects = {
       projectDesc:
         "Soaked in Sin is an anthology of <b>three games</b> set in the imagination of a 6-year-old taking a bath. The first game being a collection of micro games. In the second game, players use different bubble bullets in a first-person shooter, and in the third game, they clean up the mess before Mom gets back. I worked as a <b>Gameplay Programmer</b> on this project. This project was made for <b>Global Game Jam 2025</b> in <b>48 hours</b> with a group of <b>12 people</b>.",
       tags: [
+        {name: "Team Size: 13"},
         {name: "Unreal Engine 5"},
         {name: "Gameplay Programming"},
         {name: "Global Game Jam 2025"}
@@ -298,6 +301,7 @@ const jamProjects = {
         }
       ],
       tags: [
+        {name: "Team Size: Solo"},
         {name: "Unreal Engine 5"},
         {name: "Gameplay Programming"},
         {name: "Technical Design"},
@@ -321,6 +325,7 @@ const jamProjects = {
         }
       ],
       tags: [
+        {name: "Team Size: 5"},
         {name: "Unreal Engine 5"},
         {name: "Technical Design"},
         {name: "Gameplay Programming"},
@@ -363,6 +368,7 @@ const jamProjects = {
         }
       ],
       tags: [
+        {name: "Team Size: 5"},
         {name: "Unreal Engine 5"},
         {name: "Blueprinting"},
         {name: "Gameplay Programming"},
@@ -380,6 +386,7 @@ const jamProjects = {
         "Damy’s Sandbox is a big <b>Unreal Project</b> where I try out and make a lot of different things where sometimes quite interesting <b>prototypes</b> pop out off.\n" +
         "In this blog I will be showing some of the highlights. <br><br> <b>DISCLAIMER:</b> These are <b>not polished</b> projects these are <b>very rough</b> prototypes that I’ve made in a very short amount of time to develop my skills next to bigger school projects.",
       tags: [
+        {name: "Team Size: Solo"},
         {name: "Unreal Engine 5"},
         {name: "Prototyping"},
         {name: "Gameplay Programming"},
