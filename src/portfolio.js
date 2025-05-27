@@ -350,7 +350,11 @@ const jamProjects = {
           url: "https://youtu.be/xTdDhn9c2bg"
         }
       ],
-      tags: [{name: "Unreal Engine 5"}, {name: "Technical Design"}]
+      tags: [
+        {name: "Team Size: Solo"},
+        {name: "Unreal Engine 5"},
+        {name: "Technical Design"}
+      ]
     },
     {
       images: [
