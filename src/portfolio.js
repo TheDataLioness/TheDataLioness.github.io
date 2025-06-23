@@ -188,6 +188,32 @@ const jamProjects = {
   projects: [
     {
       images: [
+        require("./assets/images/sunny3.png"),
+        require("./assets/images/ThumbOne.png"),
+        require("./assets/images/ThumbThree.png"),
+        require("./assets/images/ThumbFour.png"),
+        require("./assets/images/sunbeat-city-1080.png")
+      ],
+      projectName: "Sunbeat City",
+      projectDesc:
+        "Sunbeat City is a <b>First-Person Parkour Game</b> set in a Solarpunk Themed-City!<br>" +
+        "I worked on this game in my second year Block D at BUas for <b>8 weeks</b> bringing the concept to complete vertical slice. <br>" +
+        "This is a project where I was responsible for <b>Gameplay Programming</b>.<br>" +
+        "But regularly also took on other jobs.",
+      tags: [
+        {name: "Team Size: 21"},
+        {name: "Unreal Engine 5"},
+        {name: "Gameplay Programming"}
+      ],
+      footerLink: [
+        {
+          name: "Go to Itch page",
+          url: "https://buas.itch.io/sunbeat-city"
+        }
+      ]
+    },
+    {
+      images: [
         require("./assets/images/ViewfinderShowcase.webp"),
         require("./assets/images/ViewfinderCameraBridgePicture.png"),
         require("./assets/images/ViewfinderPhoto.jpg"),
