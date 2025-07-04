@@ -67,6 +67,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fa fa-code-branch"
     },
     {
+      skillName: "Steamworks",
+      fontAwesomeClassname: "fa-brands fa-steam"
+    },
+    {
       skillName: "C++",
       fontAwesomeClassname: "fa fa-code"
     },
