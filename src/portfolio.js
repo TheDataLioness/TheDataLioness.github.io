@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "I'm a Tech Designer / Gameplay Programmer studying at Breda University of Applied Sciences! 🚀"
   ),
-  resumeLink: "", // Set to empty to hide the button
+  resumeLink: "Resume Button", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -252,6 +252,38 @@ const jamProjects = {
     },
     {
       images: [
+        require("./assets/images/SoakedInSinGameplayTwo.png"),
+        require("./assets/images/SoakedInSinLogo.png"),
+        require("./assets/images/SoakedInSinGameplayOne.png"),
+        require("./assets/images/SoakedInSinGameplayThree.png")
+      ],
+      projectName: "Soaked in Sin",
+      blog: "https://portfolio-blogs-one.vercel.app/soaked-in-sin",
+      projectDesc:
+        "Soaked in Sin is an anthology of <b>three games</b> set in the imagination of a 6-year-old taking a bath. The first game being a collection of micro games. In the second game, players use different bubble bullets in a first-person shooter, and in the third game, they clean up the mess before Mom gets back. I worked as a <b>Gameplay Programmer</b> on this project. This project was made for <b>Global Game Jam 2025</b> in <b>48 hours</b> with a group of <b>12 people</b>. <br>After suggestions from people we decided to improve the game and make a <b>Steam Release</b>.",
+      tags: [
+        {name: "Team Size: 13"},
+        {name: "Unreal Engine 5"},
+        {name: "Gameplay Programming"},
+        {name: "Global Game Jam 2025"}
+      ],
+      footerLink: [
+        {
+          name: "Go to Steam",
+          url: "https://store.steampowered.com/app/3586570/Soaked_in_Sin/"
+        },
+        {
+          name: "See Trailer",
+          url: "https://youtu.be/GNtSb0M_6_w"
+        },
+        {
+          name: "Read the blog",
+          url: "https://portfolio-blogs-one.vercel.app/soaked-in-sin"
+        }
+      ]
+    },
+    {
+      images: [
         require("./assets/images/ORTUS_GameplayOne.png"),
         require("./assets/images/Ortus_Thumbnail.png"),
         require("./assets/images/ORTUS_GameplayTwo.png")
@@ -280,38 +312,6 @@ const jamProjects = {
         {name: "Gameplay Programming"},
         {name: "Graphics Programming"},
         {name: "Best Year 1 Tech | BUas | 2024"}
-      ]
-    },
-    {
-      images: [
-        require("./assets/images/SoakedInSinGameplayTwo.png"),
-        require("./assets/images/SoakedInSinLogo.png"),
-        require("./assets/images/SoakedInSinGameplayOne.png"),
-        require("./assets/images/SoakedInSinGameplayThree.png")
-      ],
-      projectName: "Soaked in Sin",
-      blog: "https://portfolio-blogs-one.vercel.app/soaked-in-sin",
-      projectDesc:
-        "Soaked in Sin is an anthology of <b>three games</b> set in the imagination of a 6-year-old taking a bath. The first game being a collection of micro games. In the second game, players use different bubble bullets in a first-person shooter, and in the third game, they clean up the mess before Mom gets back. I worked as a <b>Gameplay Programmer</b> on this project. This project was made for <b>Global Game Jam 2025</b> in <b>48 hours</b> with a group of <b>12 people</b>.",
-      tags: [
-        {name: "Team Size: 13"},
-        {name: "Unreal Engine 5"},
-        {name: "Gameplay Programming"},
-        {name: "Global Game Jam 2025"}
-      ],
-      footerLink: [
-        {
-          name: "Go to Itch page",
-          url: "https://datalioness.itch.io/soaked-in-sin"
-        },
-        {
-          name: "See Trailer",
-          url: "https://youtu.be/GNtSb0M_6_w"
-        },
-        {
-          name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/soaked-in-sin"
-        }
       ]
     },
     {
@@ -512,7 +512,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
