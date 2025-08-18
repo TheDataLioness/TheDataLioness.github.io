@@ -213,6 +213,10 @@ const jamProjects = {
         {
           name: "Go to Itch page",
           url: "https://buas.itch.io/sunbeat-city"
+        },
+        {
+          name: "Read the blog",
+          url: "https://portfolio-blogs-one.vercel.app/sunbeatcity"
         }
       ]
     },
