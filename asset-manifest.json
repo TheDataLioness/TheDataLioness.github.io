@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.96416ee6.css",
-    "main.js": "/static/js/main.7d8ebfec.js",
+    "main.js": "/static/js/main.d9b36ff5.js",
     "static/css/64.92f037d6.chunk.css": "/static/css/64.92f037d6.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.6be351a1.chunk.css": "/static/css/769.6be351a1.chunk.css",
@@ -38,6 +38,7 @@
     "static/media/BussinessCard_V4.png": "/static/media/BussinessCard_V4.784cf9ae3af3d6e2b988.png",
     "static/media/ArmadilloMayhem1.png": "/static/media/ArmadilloMayhem1.36679ecec9b61db70d2f.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/Resume_Damy_op_den_Kamp.pdf": "/static/media/Resume_Damy_op_den_Kamp.c842c9190b07c25ee5a1.pdf",
     "static/media/WolFish_Thumbnail.png": "/static/media/WolFish_Thumbnail.b071754ffb018b9644cc.png",
     "static/media/itch_logo.png": "/static/media/itch_logo.a50f8c109c61601251ac.png",
     "static/media/DriftedAwayLogo.png": "/static/media/DriftedAwayLogo.2d11fdedfaf0cfb40d5d.png",
@@ -45,11 +46,10 @@
     "static/media/logo-roc-nijmegen.png": "/static/media/logo-roc-nijmegen.846591a93aaf5843deed.png",
     "static/media/facebookLogo.png": "/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
     "static/media/BUas_Logo.jpg": "/static/media/BUas_Logo.ee8b574290037ce8c84a.jpg",
-    "static/media/resume.pdf": "/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.96416ee6.css.map": "/static/css/main.96416ee6.css.map",
-    "main.7d8ebfec.js.map": "/static/js/main.7d8ebfec.js.map",
+    "main.d9b36ff5.js.map": "/static/js/main.d9b36ff5.js.map",
     "64.92f037d6.chunk.css.map": "/static/css/64.92f037d6.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.6be351a1.chunk.css.map": "/static/css/769.6be351a1.chunk.css.map",
@@ -57,6 +57,6 @@
   },
   "entrypoints": [
     "static/css/main.96416ee6.css",
-    "static/js/main.7d8ebfec.js"
+    "static/js/main.d9b36ff5.js"
   ]
 }
