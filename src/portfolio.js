@@ -23,7 +23,7 @@ const greeting = {
   username: "DataLioness",
   title: "Heya, I'm Damy",
   subTitle: emoji(
-    "I'm a Tech Designer / Gameplay Programmer studying at Breda University of Applied Sciences! 🚀"
+    "I'm a <b>Test</b> studying at Breda University of Applied Sciences! 🚀"
   ),
   resumeLink: "Resume Button", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true

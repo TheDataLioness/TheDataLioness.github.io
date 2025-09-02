@@ -32,7 +32,8 @@ export default function Greeting() {
                   isDark ? "greeting-text-p" : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                I'm a <span className={"job"}></span> studying at Breda
+                University of Applied Sciences! 🚀
               </p>
               <SocialMedia />
               <div className="button-greeting-div">

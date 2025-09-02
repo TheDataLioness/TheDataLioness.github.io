@@ -66,6 +66,24 @@
   transform-origin: 70% 70%;
 }
 
+.job:before {
+  content: "Gameplay Programmer";
+  animation: head 4s infinite linear;
+  color: #841fa6;
+  font-weight: bold;
+}
+
+@keyframes head {
+  0% {
+    opacity: 1;
+    content: "Technical Game Designer";
+  }
+  100% {
+    opacity: 1;
+    content: "Gameplay Programmerㅤ";
+  }
+}
+
 @keyframes wave {
   0% {
     transform: rotate(0deg);
