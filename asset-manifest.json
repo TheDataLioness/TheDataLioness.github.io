@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.23a806f5.css",
-    "main.js": "/static/js/main.ad27feec.js",
+    "main.css": "/static/css/main.dbe36139.css",
+    "main.js": "/static/js/main.9fbc976f.js",
     "static/css/64.92f037d6.chunk.css": "/static/css/64.92f037d6.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.6be351a1.chunk.css": "/static/css/769.6be351a1.chunk.css",
@@ -48,15 +48,15 @@
     "static/media/BUas_Logo.jpg": "/static/media/BUas_Logo.ee8b574290037ce8c84a.jpg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.23a806f5.css.map": "/static/css/main.23a806f5.css.map",
-    "main.ad27feec.js.map": "/static/js/main.ad27feec.js.map",
+    "main.dbe36139.css.map": "/static/css/main.dbe36139.css.map",
+    "main.9fbc976f.js.map": "/static/js/main.9fbc976f.js.map",
     "64.92f037d6.chunk.css.map": "/static/css/64.92f037d6.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.6be351a1.chunk.css.map": "/static/css/769.6be351a1.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23a806f5.css",
-    "static/js/main.ad27feec.js"
+    "static/css/main.dbe36139.css",
+    "static/js/main.9fbc976f.js"
   ]
 }
