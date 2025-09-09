@@ -1,0 +1,164 @@
+.recommendations-section {
+  text-align: center;
+  padding: 2rem;
+}
+
+.recommendations-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.recommendations-slideshow-container {
+  max-width: 1600px;
+  margin: auto;
+  position: relative;
+  min-height: 400px;
+}
+
+.recommendations-slides {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+}
+
+.recommendations-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.recommendations-author {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.recommendations-role {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.recommendations-prev,
+.recommendations-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 50%;
+  user-select: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #841fa4;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recommendations-prev {
+  left: 250px;
+}
+
+.recommendations-next {
+  right: 250px;
+}
+
+.recommendations-prev:hover,
+.recommendations-next:hover {
+  background-color: #62167a;
+  transform: scale(1.05);
+}
+
+.recommendations-dots {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.recommendations-dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.recommendations-dot.active {
+  background-color: #007bff;
+}
+
+.recommendations-dot:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .recommendations-slideshow-container {
+    max-width: 100%;
+    padding: 1rem;
+    min-height: 300px;
+  }
+
+  .recommendations-slides {
+    padding: 1rem;
+    min-height: 150px;
+  }
+
+  .recommendations-prev,
+  .recommendations-next {
+    top: 50%; /* Center vertically relative to the container */
+    transform: translateY(-50%); /* Adjust for proper centering */
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    transition: none; /* Disable animation */
+  }
+
+  .recommendations-prev {
+    left: 20px;
+  }
+
+  .recommendations-next {
+    right: 20px;
+  }
+
+  .recommendations-prev:hover,
+  .recommendations-next:hover {
+    transform: none; /* Disable hover scaling */
+    background-color: #841fa4; /* Keep the default background color */
+  }
+
+  .recommendations-heading {
+    font-size: 2rem;
+  }
+
+  .recommendations-quote {
+    font-size: 1rem;
+  }
+
+  .recommendations-author {
+    font-size: 0.9rem;
+  }
+
+  .recommendations-role {
+    font-size: 0.8rem;
+  }
+}

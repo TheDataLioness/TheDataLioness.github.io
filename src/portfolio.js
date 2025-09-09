@@ -519,6 +519,21 @@ const resumeSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+const recommendations = {
+  quotes: [
+    {
+      name: "Lasse Meerburg",
+      role: "Producer",
+      text: "Damy is hard working and selfmotivating, as long as she has a challenge in front of her she will figure it out with remarkable speed. <br>She's able to work well with others like when having to work close with designers to create specific features. Her overall optimistic attitude makes her approachable when you need help with technical issues. <br>Overall a delight to work with."
+    },
+    {
+      name: "Lasse Meerburg",
+      role: "Producer",
+      text: "Damy is hard working and selfmotivating, as long as she has a challenge in front of her she will figure it out with remarkable speed. <br>She's able to work well with others like when having to work close with designers to create specific features. Her overall optimistic attitude makes her approachable when you need help with technical issues. <br>Overall a delight to work with."
+    }
+  ]
+};
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "You can contact me via email!",
@@ -553,5 +568,6 @@ export {
   twitterDetails,
   isHireable,
   resumeSection,
-  jamProjects
+  jamProjects,
+  recommendations
 };
