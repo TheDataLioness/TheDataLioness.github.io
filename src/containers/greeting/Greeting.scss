@@ -131,3 +131,9 @@
     width: auto;
   }
 }
+
+@media (max-width: 768px) {
+  .greeting-image-div {
+    display: none;
+  }
+}

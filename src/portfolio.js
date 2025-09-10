@@ -59,6 +59,18 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "C++",
+      fontAwesomeClassname: "fa fa-code"
+    },
+    {
+      skillName: "Unreal Engine 5",
+      fontAwesomeClassname: "fa fa-gamepad"
+    },
+    {
+      skillName: "Technical Game Design",
+      fontAwesomeClassname: "fa fa-star"
+    },
+    {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
     },
@@ -70,21 +82,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Steamworks",
       fontAwesomeClassname: "fa-brands fa-steam"
     },
-    {
-      skillName: "C++",
-      fontAwesomeClassname: "fa fa-code"
-    },
+
     {
       skillName: "OpenGL",
       fontAwesomeClassname: "fa fa-cube"
-    },
-    {
-      skillName: "Unreal Engine 5",
-      fontAwesomeClassname: "fa fa-gamepad"
-    },
-    {
-      skillName: "Technical Game Design",
-      fontAwesomeClassname: "fa fa-star"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -523,13 +524,15 @@ const recommendations = {
   quotes: [
     {
       name: "Lasse Meerburg",
-      role: "Producer",
+      linkedin: "https://www.linkedin.com/in/lasse-meerburg-8530b225b",
+      role: "Producer (Sunbeat City & ORTUS)",
       text: "Damy is hard working and selfmotivating, as long as she has a challenge in front of her she will figure it out with remarkable speed. <br>She's able to work well with others like when having to work close with designers to create specific features. Her overall optimistic attitude makes her approachable when you need help with technical issues. <br>Overall a delight to work with."
     },
     {
-      name: "Lasse Meerburg",
-      role: "Producer",
-      text: "Damy is hard working and selfmotivating, as long as she has a challenge in front of her she will figure it out with remarkable speed. <br>She's able to work well with others like when having to work close with designers to create specific features. Her overall optimistic attitude makes her approachable when you need help with technical issues. <br>Overall a delight to work with."
+      name: "Jeroen Vermeulen",
+      linkedin: "https://www.linkedin.com/in/jeroen-vermeulen-59994a317",
+      role: "Environment Artist (Sunbeat City)",
+      text: "Always really helpfull, and really nice to talk to.<br>Knows what she's talking about and doesn't shy away for an extra challenge"
     }
   ]
 };

@@ -9,47 +9,59 @@
   opacity: 50%;
 }
 
-/** Internet Explorer */
+/* Default fade animation for compatible browsers */
+.hero-container {
+  animation-name: fade;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-direction: alternate;
+  animation-timeline: scroll();
+}
+
+/* Disable animation and set opacity to 0% for mobile devices */
+@media (max-width: 768px) {
+  .hero-container {
+    animation: none;
+    opacity: 0%;
+  }
+}
+
+/* Disable animation and set opacity to 0% for incompatible browsers */
+@supports not (animation-timeline: scroll()) {
+  .hero-container {
+    animation: none;
+    opacity: 0%;
+  }
+}
+
+/* Internet Explorer */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .hero-container {
-    animation-name: fade;
-    animation-duration: 1ms; /* Firefox requires this to apply the animation */
-    animation-direction: alternate;
-    animation-timeline: scroll();
+    animation: none;
+    opacity: 0%;
   }
 }
 
-/** Microsoft Edge */
+/* Microsoft Edge */
 @supports (-ms-ime-align: auto) {
   .hero-container {
-    visibility: hidden;
+    animation: none;
     opacity: 0%;
   }
 }
 
-/** Mozilla Firefox */
+/* Mozilla Firefox */
 @-moz-document url-prefix() {
   .hero-container {
-    visibility: hidden;
+    animation: none;
     opacity: 0%;
   }
 }
 
-/** Safari */
+/* Safari */
 @media not all and (min-resolution: 0.001dpcm) {
   .hero-container {
-    visibility: hidden;
+    animation: none;
     opacity: 0%;
-  }
-}
-
-/** Chrominum */
-@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
-  .hero-container {
-    animation-name: fade;
-    animation-duration: 1ms; /* Firefox requires this to apply the animation */
-    animation-direction: alternate;
-    animation-timeline: scroll();
   }
 }
 

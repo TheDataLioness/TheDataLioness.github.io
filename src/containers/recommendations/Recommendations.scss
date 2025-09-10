@@ -13,6 +13,7 @@
   margin: auto;
   position: relative;
   min-height: 400px;
+  margin-top: 2rem; /* Add margin to separate from the heading */
 }
 
 .recommendations-slides {
@@ -21,7 +22,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -30,18 +30,34 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   min-height: 200px;
+  max-width: 50%;
+  min-width: 50%;
+}
+
+.recommendations-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+  width: 100%; /* Ensure it takes the full width of the slide */
+  height: 100%; /* Ensure it takes the full height of the slide */
 }
 
 .recommendations-quote {
   font-size: 1.2rem;
   font-style: italic;
   margin-bottom: 1rem;
+  overflow-wrap: break-word; /* Break long words */
+  word-wrap: break-word; /* Fallback for older browsers */
+  max-height: 100%; /* Ensure it doesn't exceed the container */
+  overflow-y: auto; /* Enable vertical scrolling if necessary */
 }
 
 .recommendations-author {
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  color: #000000;
 }
 
 .recommendations-role {
@@ -111,15 +127,22 @@
 
 /* Responsive styles for mobile */
 @media (max-width: 768px) {
+  .recommendations-section {
+    padding-top: 4rem; /* Add padding to prevent overlap */
+  }
+
   .recommendations-slideshow-container {
     max-width: 100%;
     padding: 1rem;
     min-height: 300px;
+    margin-top: 4rem; /* Ensure spacing on mobile as well */
   }
 
   .recommendations-slides {
     padding: 1rem;
-    min-height: 150px;
+    margin: 10px;
+    min-height: 350px;
+    max-height: 500px;
   }
 
   .recommendations-prev,
@@ -152,6 +175,12 @@
 
   .recommendations-quote {
     font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    overflow-wrap: break-word; /* Break long words */
+    word-wrap: break-word; /* Fallback for older browsers */
+    max-height: 100%; /* Ensure it doesn't exceed the container */
+    overflow-y: auto; /* Enable vertical scrolling if necessary */
   }
 
   .recommendations-author {

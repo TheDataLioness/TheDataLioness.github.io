@@ -6,6 +6,7 @@ import {recommendations} from "../../portfolio";
 export default function Recommendations() {
   const [slideIndex, setSlideIndex] = useState(1);
 
+  // Adjust slide heights only once after the component mounts
   useEffect(() => {
     const slides = document.querySelectorAll(".recommendations-slides");
     let maxHeight = 0;
@@ -22,13 +23,11 @@ export default function Recommendations() {
     slides.forEach(slide => {
       slide.style.height = `${maxHeight}px`;
     });
+  }, []); // Run only once after the component mounts
 
-    // Show only the first slide initially
-    showRSlides(slideIndex);
-  }, []); // Run only once on component mount
-
+  // Show the active slide whenever slideIndex changes
   useEffect(() => {
-    showRSlides(slideIndex); // Update visible slide when slideIndex changes
+    showRSlides(slideIndex);
   }, [slideIndex]);
 
   function recommendationsNext(n) {
@@ -66,12 +65,21 @@ export default function Recommendations() {
         <div className="recommendations-slideshow-container">
           {recommendations.quotes.map((recommendation, index) => (
             <div className="recommendations-slides" key={index}>
-              <p
-                className="recommendations-quote"
-                dangerouslySetInnerHTML={{__html: `"${recommendation.text}"`}}
-              ></p>
-              <p className="recommendations-author">- {recommendation.name}</p>
-              <p className="recommendations-role">{recommendation.role}</p>
+              <div className="recommendations-content">
+                <p
+                  className="recommendations-quote"
+                  dangerouslySetInnerHTML={{__html: `"${recommendation.text}"`}}
+                ></p>
+                <a
+                  className="recommendations-author"
+                  href={recommendation.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  - {recommendation.name}
+                </a>
+                <p className="recommendations-role">{recommendation.role}</p>
+              </div>
             </div>
           ))}
 
