@@ -1,11 +1,11 @@
-import React, { useState, useContext } from "react";
+import React, {useState, useContext} from "react";
 import "./GeneralProjects.scss";
-import { jamProjects } from "../../portfolio";
-import { Fade } from "react-reveal";
+import {jamProjects} from "../../portfolio";
+import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function GeneralProjects() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
 
   if (!jamProjects.display) {
     return null;
@@ -37,22 +37,24 @@ export default function GeneralProjects() {
   );
 }
 
-function ProjectCard({ project, isDark }) {
+function ProjectCard({project, isDark}) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % project.images.length);
+    setCurrentSlide(prev => (prev + 1) % project.images.length);
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + project.images.length) % project.images.length);
+    setCurrentSlide(
+      prev => (prev - 1 + project.images.length) % project.images.length
+    );
   };
 
-  const goToSlide = (index) => {
+  const goToSlide = index => {
     setCurrentSlide(index);
   };
 
-  const openUrlInNewTab = (url) => {
+  const openUrlInNewTab = url => {
     if (!url) return;
     const win = window.open(url, "_blank");
     win.focus();
@@ -98,9 +100,7 @@ function ProjectCard({ project, isDark }) {
         </div>
         <div className="jam-project-detail">
           <h5
-            className={
-              isDark ? "dark-mode jam-card-title" : "jam-card-title"
-            }
+            className={isDark ? "dark-mode jam-card-title" : "jam-card-title"}
           >
             {project.projectName}
           </h5>
@@ -108,14 +108,14 @@ function ProjectCard({ project, isDark }) {
             className={
               isDark ? "dark-mode jam-card-subtitle" : "jam-card-subtitle"
             }
-            dangerouslySetInnerHTML={{ __html: project.projectDesc }}
+            dangerouslySetInnerHTML={{__html: project.projectDesc}}
           ></p>
           <div className="jam-project-card-footer">
             {project.tags.map((tag, index) => (
               <span
                 key={index}
                 className="jam-project-tag-actualtag"
-                style={{ backgroundColor: tagColors[index % tagColors.length] }}
+                style={{backgroundColor: tagColors[index % tagColors.length]}}
               >
                 {tag.name}
               </span>
