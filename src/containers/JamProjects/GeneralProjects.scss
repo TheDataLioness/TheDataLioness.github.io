@@ -1,146 +1,89 @@
 @import "../../_globalColor";
 
-.jam-card-image {
-  max-width: 100%;
-  height: 250px;
-  width: auto;
-}
-
-.jam-card-title {
-  color: $titleColor;
-  font-size: 22px;
-  line-height: 24px;
-  font-weight: 700;
-  margin: 15px 0 0 0;
-}
-
-.jam-card-subtitle {
-  color: $cardSubtitle;
-  font-size: 17px;
-  line-height: 1.5rem;
-  margin-bottom: 1rem; /* Add spacing below the description */
-  word-wrap: break-word; /* Ensure long words break to the next line */
-}
-
-.jam-project-card {
-  display: flex;
-  flex-direction: column;
-  background-color: $lightBackground2;
-  padding: 1.5rem;
-  border-radius: 10px;
-  border: 1px solid $lightBorder1;
-  justify-content: center;
-}
-
-.jam-project-card-light {
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.jam-project-card-dark {
-  box-shadow: 0px 10px 30px -15px $darkBoxShadow;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.25s ease;
-}
-
-.jam-project-detail {
-  text-align: center;
-}
-
-.jam-project-card-light:hover {
-  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
-}
-
-.jam-project-card-dark:hover {
-  box-shadow: 0px 20px 30px -10px $darkBoxShadow;
-}
-
-.jam-project-image {
-  position: relative;
-  height: 250px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .jam-projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Limit to 2 columns */
-  gap: 1rem; /* Adjust gap between items */
-  max-width: 1800px; /* Set a maximum width for the container */
-  width: 100%; /* Ensure it takes up full width up to the max-width */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
 }
 
 @media (max-width: 768px) {
   .jam-projects-container {
-    grid-template-columns: repeat(1, 1fr); /* Mobile: 1 column */
+    grid-template-columns: 1fr;
   }
 }
 
-.jam-project-card-footer span.jam-project-button {
-  background: $buttonColor;
-  color: $lightBackground3;
-  vertical-align: middle;
-  align-items: center;
+.jam-project-card {
+  background-color: $lightBackground3;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px $lightBoxShadow;
+  overflow: hidden;
+}
+
+.jam-project-tag-actualtag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
   border-radius: 4px;
-  display: inline-flex;
+  color: white;
   font-size: 0.75rem;
-  height: 2em;
-  justify-content: center;
-  white-space: nowrap;
-  line-height: 1.5;
-  margin: 0 0.5rem 0.5rem 0;
-  padding: 0 0.75em;
+  background-color: #6c757d;
+  cursor: progress;
+}
+
+.jam-project-tag-actualtag:nth-child(even) {
+  background-color: #495057;
+}
+
+.jam-project-contributions {
+  list-style-position: inside;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.jam-project-button {
+  background-color: $buttonColor;
+  color: $lightBackground1;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
   cursor: pointer;
-  transition: 0.2s ease-in;
+  margin-right: 0.5rem;
+  transition: background-color 0.3s ease;
 }
 
-.jam-project-card-footer span.jam-project-tag-actualtag {
-  background: #0e76a8;
-  color: $lightBackground3;
-  vertical-align: middle;
-  align-items: center;
-  border-radius: 4px;
-  display: inline-flex;
-  font-size: 0.75rem;
-  height: 2em;
-  justify-content: center;
-  white-space: nowrap;
-  line-height: 1.5;
-  margin: 0 0.5rem 0.5rem 0;
-  padding: 0 0.75em;
-  cursor: default;
-  transition: 0.2s ease-in;
+.jam-project-button:hover {
+  background-color: $buttonHover;
 }
 
-.split-line {
-  width: 50%;
-}
-
-@media (max-width: 768px) {
-  .jam-project-subtitle {
-    font-size: 16px;
-    text-align: center;
-  }
-}
-
-/* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
-  margin: auto;
+  width: 75%;
+  height: auto;
+  overflow: hidden;
 }
 
-/* Hide the images by default */
-.slideshow-slide {
+.jam-project-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.jam-card-image {
   display: none;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  object-fit: contain;
 }
 
-/* Next & previous buttons */
+.jam-card-image.active {
+  display: block;
+}
+
+
 .prev,
 .next {
   cursor: pointer;
@@ -155,127 +98,38 @@
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
   position: absolute;
-  bottom: 8px;
+  bottom: 15px;
   width: 100%;
-  text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #ccc;
   border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fading {
-  animation-name: doFade;
-  animation-duration: 1.5s;
-}
-
-.blog-click-title {
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.blog-click-title:hover {
-  color: #1da1f2;
-  scale: 120%;
-}
-
-@keyframes doFade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@media (max-width: 768px) {
-  .jam-card-title {
-    font-size: 18px; /* Adjust title font size */
-    text-align: center; /* Center align text */
-  }
-
-  .jam-card-subtitle {
-    margin-bottom: 1rem; /* Add spacing below the description */
-    word-wrap: break-word; /* Ensure long words break to the next line */
-  }
-
-  .jam-project-card {
-    padding: 1rem; /* Reduce padding for smaller screens */
-  }
-
-  .jam-projects-containerb {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 0.5rem; /* Reduce gap between items */
-  }
-
-  .jam-project-image {
-    height: 200px; /* Reduce image height */
-  }
-
-  .jam-project-card-footer span.jam-project-button {
-    font-size: 0.65rem; /* Adjust button font size */
-    padding: 0 0.5em; /* Adjust padding */
-  }
-}
-
-.show-more-container {
-  text-align: center;
-  margin-top: 1rem;
-}
-
-.show-more-button {
-  background: $buttonColor;
-  color: $lightBackground3;
-  border: none;
-  border-radius: 4px;
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.show-more-button:hover {
-  background: darken($buttonColor, 10%);
+.dot.active {
+  background-color: #495057;
 }

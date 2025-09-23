@@ -20,10 +20,10 @@ export default function Skills() {
             {illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />
             ) : (
-              <img
-                alt="Ortus in Engine"
-                src={require("../../assets/images/ORTUS_InEngine.png")}
-              ></img>
+              <iframe width="700" height="400" src="https://www.youtube.com/embed/aA6RvrqDFDU?si=00U2rls3quzGk4dN"
+                      title="YouTube video player" frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             )}
           </div>
         </Fade>

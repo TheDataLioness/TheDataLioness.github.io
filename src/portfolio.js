@@ -189,38 +189,8 @@ const bigProjects = {
 
 const jamProjects = {
   title: "Projects",
-  subtitle: "This is a list of ordered by my most proud projects.",
+  subtitle: "Projects I've worked on in teams or solo, for school, game jams or just for fun.",
   projects: [
-    {
-      images: [
-        require("./assets/images/sunny3.png"),
-        require("./assets/images/ThumbOne.png"),
-        require("./assets/images/ThumbThree.png"),
-        require("./assets/images/ThumbFour.png"),
-        require("./assets/images/sunbeat-city-1080.png")
-      ],
-      projectName: "Sunbeat City",
-      projectDesc:
-        "Sunbeat City is a <b>First-Person Parkour Game</b> set in a Solarpunk Themed-City!<br>" +
-        "I worked on this game in my second year Block D at BUas for <b>8 weeks</b> bringing the concept to complete vertical slice. <br>" +
-        "This is a project where I was responsible for <b>Gameplay Programming</b>.<br>" +
-        "But regularly also took on other jobs.",
-      tags: [
-        {name: "Team Size: 21"},
-        {name: "Unreal Engine 5"},
-        {name: "Gameplay Programming"}
-      ],
-      footerLink: [
-        {
-          name: "Go to Itch page",
-          url: "https://buas.itch.io/sunbeat-city"
-        },
-        {
-          name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/sunbeatcity"
-        }
-      ]
-    },
     {
       images: [
         require("./assets/images/ViewfinderShowcase.webp"),
@@ -229,30 +199,25 @@ const jamProjects = {
         require("./assets/images/ViewfinderBridge.jpg")
       ],
       projectName: "Viewfinder Feature Recreation",
-      projectDesc:
-        "As my second project (Block B) at BUas as a <b>Technical Designer</b>, I recreated the core mechanic of <b>Viewfinder</b> in Unreal Engine 5. This mechanic lets players take pictures and place/blend them into the world.<br>" +
-        "<br>To showcase the functionality and creative potential of this mechanic, I designed a demo level that demonstrates its potential.",
-      blog: "https://portfolio-blogs-one.vercel.app/viewfinder",
+      projectDesc: "Recreation of Viewfinder's photo to world mechanic in Unreal Engine 5, where 2D pictures become traversable 3D environments.",
+      contributions: [
+        "Implemented photo placement mechanic",
+        "Created pipeline for setting up the photo to world system",
+        "Designed showcase level demonstrating puzzle possibilities.",
+        "Developed tools for designers to easily create new puzzles."
+      ],
       tags: [
-        {name: "Team Size: Solo"},
-        {name: "Unreal Engine 5"},
-        {name: "Blueprinting & C++"},
-        {name: "Technical Design"},
-        {name: "Gameplay Programming"}
+        { name: "Team Size: Solo" },
+        { name: "Unreal Engine 5" },
+        { name: "Blueprinting & C++" },
+        { name: "Technical Design" },
+        { name: "Gameplay Programming" },
+        { name: "BUas Y2 Project" }
       ],
       footerLink: [
-        {
-          name: "View pipeline videos",
-          url: "https://www.youtube.com/playlist?list=PLHxTDmjUToZ28CHMKOgWRPcggfd53Dw_p"
-        },
-        {
-          name: "View Showcase Video",
-          url: "https://www.youtube.com/watch?v=PcrpUXnaqrA"
-        },
-        {
-          name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/viewfinder"
-        }
+        { name: "View pipeline videos", url: "https://www.youtube.com/playlist?list=PLHxTDmjUToZ28CHMKOgWRPcggfd53Dw_p" },
+        { name: "View Showcase Video", url: "https://www.youtube.com/watch?v=PcrpUXnaqrA" },
+        { name: "Read the blog", url: "https://portfolio-blogs-one.vercel.app/viewfinder" }
       ]
     },
     {
@@ -263,28 +228,49 @@ const jamProjects = {
         require("./assets/images/SoakedInSinGameplayThree.png")
       ],
       projectName: "Soaked in Sin",
-      blog: "https://portfolio-blogs-one.vercel.app/soaked-in-sin",
-      projectDesc:
-        "Soaked in Sin is an anthology of <b>three games</b> set in the imagination of a 6-year-old taking a bath. The first game being a collection of micro games. In the second game, players use different bubble bullets in a first-person shooter, and in the third game, they clean up the mess before Mom gets back. I worked as a <b>Gameplay Programmer</b> on this project. This project was made for <b>Global Game Jam 2025</b> in <b>48 hours</b> with a group of <b>12 people</b>. <br>After suggestions from people we decided to improve the game and make a <b>Steam Release</b>.",
+      projectDesc: "A three-part anthology game created for Global Game Jam 2025.",
+      contributions: [
+        "Contributed to post jam improvements and bug fixes for successful Steam release.",
+        "Programmed core mechanics across all three minigames.",
+        "Maintained a rapidly-growing codebase with 13 people building content simultaneously during a 48-hour timespan."
+      ],
       tags: [
-        {name: "Team Size: 13"},
-        {name: "Unreal Engine 5"},
-        {name: "Gameplay Programming"},
-        {name: "Global Game Jam 2025"}
+        { name: "Team Size: 13" },
+        { name: "Unreal Engine 5" },
+        { name: "Gameplay Programming" },
+        { name: "Global Game Jam 2025" }
       ],
       footerLink: [
-        {
-          name: "Go to Steam",
-          url: "https://store.steampowered.com/app/3586570/Soaked_in_Sin/"
-        },
-        {
-          name: "See Trailer",
-          url: "https://youtu.be/GNtSb0M_6_w"
-        },
-        {
-          name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/soaked-in-sin"
-        }
+        { name: "Go to Steam", url: "https://store.steampowered.com/app/3586570/Soaked_in_Sin/" },
+        { name: "See Trailer", url: "https://youtu.be/GNtSb0M_6_w" },
+        { name: "Read the blog", url: "https://portfolio-blogs-one.vercel.app/soaked-in-sin" }
+      ]
+    },
+    {
+      images: [
+        require("./assets/images/sunny3.png"),
+        require("./assets/images/ThumbOne.png"),
+        require("./assets/images/ThumbThree.png"),
+        require("./assets/images/ThumbFour.png"),
+        require("./assets/images/sunbeat-city-1080.png")
+      ],
+      projectName: "Sunbeat City",
+      projectDesc: "A first-person parkour game set in a solarpunk-themed city.",
+      contributions: [
+        "Implemented parkour traversal mechanics.",
+        "Developed core gameplay systems and interactions.",
+        "Collaborated across disciplines to deliver a polished vertical slice.",
+        "Maintained and optimized codebase for performance and scalability."
+      ],
+      tags: [
+        { name: "Team Size: 21" },
+        { name: "Unreal Engine 5" },
+        { name: "Gameplay Programming" },
+        { name: "BUas Y2 Project" }
+      ],
+      footerLink: [
+        { name: "Go to Itch page", url: "https://buas.itch.io/sunbeat-city" },
+        { name: "Read the blog", url: "https://portfolio-blogs-one.vercel.app/sunbeatcity" }
       ]
     },
     {
@@ -294,29 +280,24 @@ const jamProjects = {
         require("./assets/images/ORTUS_GameplayTwo.png")
       ],
       projectName: "ORTUS",
-      projectDesc:
-        "First year project at BUas, a <b>twin-stick shooter</b> game made in Unreal Engine 5.4. I worked on this project as <b>gameplay programmer</b> and worked primarily on building tools that allowed our designers to build gameplay experiences with.",
-      blog: "https://portfolio-blogs-one.vercel.app/ortus",
-      footerLink: [
-        {
-          name: "Go to Itch page",
-          url: "https://buas.itch.io/team-cumin"
-        },
-        {
-          name: "See Trailer",
-          url: "https://www.youtube.com/watch?v=AKISXZogN5w"
-        },
-        {
-          name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/ortus"
-        }
+      projectDesc: "A twin-stick shooter made during first year at BUas.",
+      contributions: [
+        "Implemented gameplay features.",
+        "Built designer friendly tools for creating gameplay.",
+        "Worked on systems to enhance the player experience."
       ],
       tags: [
-        {name: "Team Size: 12"},
-        {name: "Unreal Engine 5"},
-        {name: "Gameplay Programming"},
-        {name: "Graphics Programming"},
-        {name: "Best Year 1 Tech | BUas | 2024"}
+        { name: "Team Size: 12" },
+        { name: "Unreal Engine 5" },
+        { name: "Gameplay Programming" },
+        { name: "Graphics Programming" },
+        { name: "BUas Y1 Project" },
+        { name: "Best Year 1 Tech | BUas | 2024" }
+      ],
+      footerLink: [
+        { name: "Go to Itch page", url: "https://buas.itch.io/team-cumin" },
+        { name: "See Trailer", url: "https://www.youtube.com/watch?v=AKISXZogN5w" },
+        { name: "Read the blog", url: "https://portfolio-blogs-one.vercel.app/ortus" }
       ]
     },
     {
@@ -327,21 +308,22 @@ const jamProjects = {
         require("./assets/images/Disconnected_GameplayTwo.png")
       ],
       projectName: "Disconnected...",
-      projectDesc:
-        "Step into the boots of a resourceful robot navigating a mysterious space station in Disconnected... Created for the  <b>Kenney Jam 2024</b> in <b>48 hours</b>, this game challenges you to traverse levels by connecting with cameras throughout the station. Each camera offers a unique perspective, altering how you view the world around you.This was a <b>solo project</b> made in <b>48 hours</b> using <b>Kenney.nl</b> assets.",
-      footerLink: [
-        {
-          name: "Go to Itch page",
-          url: "https://datalioness.itch.io/disconnected"
-        }
+      projectDesc: "A solo project made for Kenney Jam 2024.",
+      contributions: [
+        "Designed and programmed camera-switching mechanic.",
+        "Built all gameplay and systems solo in 48 hours.",
+        "Created level design to highlight perspective based gameplay."
       ],
       tags: [
-        {name: "Team Size: Solo"},
-        {name: "Unreal Engine 5"},
-        {name: "Gameplay Programming"},
-        {name: "Technical Design"},
-        {name: "Level Design"},
-        {name: "Kenney Game Jam 2024"}
+        { name: "Team Size: Solo" },
+        { name: "Unreal Engine 5" },
+        { name: "Gameplay Programming" },
+        { name: "Technical Design" },
+        { name: "Level Design" },
+        { name: "Kenney Game Jam 2024" }
+      ],
+      footerLink: [
+        { name: "Go to Itch page", url: "https://datalioness.itch.io/disconnected" }
       ]
     },
     {
@@ -351,20 +333,20 @@ const jamProjects = {
         require("./assets/images/DriftedAwayGameplay2.png")
       ],
       projectName: "Drifted Away",
-      projectDesc:
-        "Drifted away is a <b>side scrolling</b> game where you play as a cloud and have to push a raft across the ocean. Be careful though! There are many obstacles you have to avoid when guiding the raft around. Blow stuff away, destroy them with your lightning bolts! <br>Made in <b>3 days</b> for the <b>CMGT Game Jam 2024</b>. For this project I was responsible for <b>Tech Design</b> and <b>Gameplay programming</b>.",
-      footerLink: [
-        {
-          name: "Go to Itch page",
-          url: "https://mrsxythe.itch.io/cmgt-gameham-2024"
-        }
+      projectDesc: "A side-scrolling game where players control a cloud to guide a raft.",
+      contributions: [
+        "Implemented wind mechanic for player movement.",
+        "Collaborated in a small jam team to deliver within 3 days."
       ],
       tags: [
-        {name: "Team Size: 5"},
-        {name: "Unreal Engine 5"},
-        {name: "Technical Design"},
-        {name: "Gameplay Programming"},
-        {name: "CMGT Game Jam 2024 #1"}
+        { name: "Team Size: 5" },
+        { name: "Unreal Engine 5" },
+        { name: "Technical Design" },
+        { name: "Gameplay Programming" },
+        { name: "CMGT Game Jam 2024 #1" }
+      ],
+      footerLink: [
+        { name: "Go to Itch page", url: "https://mrsxythe.itch.io/cmgt-gameham-2024" }
       ]
     },
     {
@@ -373,22 +355,21 @@ const jamProjects = {
         require("./assets/images/ArmadilloMayhem2.png")
       ],
       projectName: "Armadillo Mayhem",
-      projectDesc:
-        "As my first project at BUas as a <b>Technical Designer</b> in Year 2 from <b>switching from Programming to the Design & Production course</b> that aligns more with my gameplay programming goals. In this <b>twin-stick shooter</b> are an armadillo shooting up enemies. Roll and dash into enemies to damage them bounce around to turn into a boosted version and defeat everything on your path.",
-      footerLink: [
-        {
-          name: "Go to Itch page",
-          url: "https://datalioness.itch.io/armadillo-mayhem"
-        },
-        {
-          name: "See Trailer",
-          url: "https://youtu.be/xTdDhn9c2bg"
-        }
+      projectDesc: "A twin-stick shooter solo project featuring an armadillo protagonist.",
+      contributions: [
+        "Designed and implemented core combat systems.",
+        "Implemented unique roll and dash mechanics.",
+
       ],
       tags: [
-        {name: "Team Size: Solo"},
-        {name: "Unreal Engine 5"},
-        {name: "Technical Design"}
+        { name: "Team Size: Solo" },
+        { name: "Unreal Engine 5" },
+        { name: "Technical Design" },
+        { name: "BUas Y2 Project" }
+      ],
+      footerLink: [
+        { name: "Go to Itch page", url: "https://datalioness.itch.io/armadillo-mayhem" },
+        { name: "See Trailer", url: "https://youtu.be/xTdDhn9c2bg" }
       ]
     },
     {
@@ -398,20 +379,20 @@ const jamProjects = {
         require("./assets/images/WolFish_Thumbnail.png")
       ],
       projectName: "WolFish",
-      projectDesc:
-        "Play as a fish that transcends dimensions and transform into a wolf. Made in <b>3 days</b> for the <b>CMGT Game Jam #3 2023</b>. For this project I was resposible for all of the programming inside of the game.",
-      footerLink: [
-        {
-          name: "Go to Itch page",
-          url: "https://spel16.itch.io/wolfish"
-        }
+      projectDesc: "A jam game where a fish transforms into a wolf across dimensions.",
+      contributions: [
+        "Developed transformation mechanic between wolf and fish forms.",
+        "Worked on implementing player movement for the two forms.",
       ],
       tags: [
-        {name: "Team Size: 5"},
-        {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
-        {name: "Gameplay Programming"},
-        {name: "CMGT Game Jam 2023 #1"}
+        { name: "Team Size: 5" },
+        { name: "Unreal Engine 5" },
+        { name: "Blueprinting" },
+        { name: "Gameplay Programming" },
+        { name: "CMGT Game Jam 2023 #1" }
+      ],
+      footerLink: [
+        { name: "Go to Itch page", url: "https://spel16.itch.io/wolfish" }
       ]
     },
     {
@@ -420,28 +401,26 @@ const jamProjects = {
         require("./assets/images/PrototypeShowcase.png")
       ],
       projectName: "Damy's Sandbox",
-      blog: "https://portfolio-blogs-one.vercel.app/damy-sandbox",
-      projectDesc:
-        "Damy’s Sandbox is a big <b>Unreal Project</b> where I try out and make a lot of different things where sometimes quite interesting <b>prototypes</b> pop out off.\n" +
-        "In this blog I will be showing some of the highlights. <br><br> <b>DISCLAIMER:</b> These are <b>not polished</b> projects these are <b>very rough</b> prototypes that I’ve made in a very short amount of time to develop my skills next to bigger school projects.",
+      projectDesc: "A personal Unreal project to experiment with prototypes.",
+      contributions: [
+        "Multiple prototypes exploring gameplay mechanics just for the fun of it!",
+        "Focused on rapid iteration and experimentation."
+      ],
       tags: [
-        {name: "Team Size: Solo"},
-        {name: "Unreal Engine 5"},
-        {name: "Prototyping"},
-        {name: "Gameplay Programming"},
-        {name: "Technical Design"}
+        { name: "Team Size: Solo" },
+        { name: "Unreal Engine 5" },
+        { name: "Prototyping" },
+        { name: "Gameplay Programming" },
+        { name: "Technical Design" }
       ],
       footerLink: [
-        {
-          name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/damy-sandbox"
-        }
+        { name: "Read the blog", url: "https://portfolio-blogs-one.vercel.app/damy-sandbox" }
       ]
     }
   ],
-
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
