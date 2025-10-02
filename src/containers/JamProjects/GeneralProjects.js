@@ -12,28 +12,24 @@ export default function GeneralProjects() {
   }
 
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="projects">
-        <div>
-          <h1 className="jam-skills-heading">{jamProjects.title}</h1>
-          <p
-            className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
-            }
-          >
-            {jamProjects.subtitle}
-          </p>
+    <div className="main" id="projects">
+      <div>
+        <h1 className="jam-skills-heading">{jamProjects.title}</h1>
+        <p
+          className={
+            isDark ? "dark-mode project-subtitle" : "subTitle project-subtitle"
+          }
+        >
+          {jamProjects.subtitle}
+        </p>
 
-          <div className="jam-projects-container">
-            {jamProjects.projects.map((project, i) => (
-              <ProjectCard key={i} project={project} isDark={isDark} />
-            ))}
-          </div>
+        <div className="jam-projects-container">
+          {jamProjects.projects.map((project, i) => (
+            <ProjectCard key={i} project={project} isDark={isDark} />
+          ))}
         </div>
       </div>
-    </Fade>
+    </div>
   );
 }
 
