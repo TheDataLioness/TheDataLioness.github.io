@@ -1,7 +1,6 @@
 import React, {useState, useContext} from "react";
 import "./GeneralProjects.scss";
 import {jamProjects} from "../../portfolio";
-import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function GeneralProjects() {
@@ -12,28 +11,24 @@ export default function GeneralProjects() {
   }
 
   return (
-    <Fade left duration={1000}>
-      <div className="main" id="projects">
-        <div>
-          <h1 className="jam-skills-heading">{jamProjects.title}</h1>
-          <p
-            className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
-            }
-          >
-            {jamProjects.subtitle}
-          </p>
+    <div className="main" id="projects">
+      <div>
+        <h1 className="jam-skills-heading">{jamProjects.title}</h1>
+        <p
+          className={
+            isDark ? "dark-mode project-subtitle" : "subTitle project-subtitle"
+          }
+        >
+          {jamProjects.subtitle}
+        </p>
 
-          <div className="jam-projects-container">
-            {jamProjects.projects.map((project, i) => (
-              <ProjectCard key={i} project={project} isDark={isDark} />
-            ))}
-          </div>
+        <div className="jam-projects-container">
+          {jamProjects.projects.map((project, i) => (
+            <ProjectCard key={i} project={project} isDark={isDark} />
+          ))}
         </div>
       </div>
-    </Fade>
+    </div>
   );
 }
 
@@ -131,7 +126,10 @@ function ProjectCard({project, isDark}) {
               <button
                 key={index}
                 className="jam-project-button"
-                onClick={() => openUrlInNewTab(link.url)}
+                onClick={() => {
+                  console.log("Fuck off");
+                  openUrlInNewTab(link.url);
+                }}
               >
                 {link.name}
               </button>
