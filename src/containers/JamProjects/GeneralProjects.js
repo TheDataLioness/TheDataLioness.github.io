@@ -12,7 +12,7 @@ export default function GeneralProjects() {
   }
 
   return (
-    <Fade delay={0.1} bottom={100000}>
+    <Fade left duration={1000}>
       <div className="main" id="projects">
         <div>
           <h1 className="jam-skills-heading">{jamProjects.title}</h1>
