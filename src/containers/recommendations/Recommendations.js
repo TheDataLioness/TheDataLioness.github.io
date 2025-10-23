@@ -70,6 +70,11 @@ export default function Recommendations() {
                   className="recommendations-quote"
                   dangerouslySetInnerHTML={{__html: `"${recommendation.text}"`}}
                 ></p>
+                <img
+                  className="recommendations-profile-picture"
+                  src={recommendation.profilePicture}
+                  alt={`${recommendation.name}'s profile`}
+                />
                 <a
                   className="recommendations-author"
                   href={recommendation.linkedin}

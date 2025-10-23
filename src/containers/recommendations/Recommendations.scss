@@ -5,7 +5,7 @@
 
 .recommendations-heading {
   font-size: 2.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .recommendations-slideshow-container {
@@ -103,7 +103,7 @@
 
 .recommendations-dots {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .recommendations-dot {
@@ -123,6 +123,15 @@
 
 .recommendations-dot:hover {
   background-color: #0056b3;
+}
+
+.recommendations-profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
 }
 
 /* Responsive styles for mobile */
