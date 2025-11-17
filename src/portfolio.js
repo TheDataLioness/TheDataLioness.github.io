@@ -546,7 +546,7 @@ const recommendations = {
       name: "Lasse Meerburg",
       linkedin: "https://www.linkedin.com/in/lasse-meerburg-8530b225b",
       profilePicture:
-        "https://media.licdn.com/dms/image/v2/D4E03AQHYnBdfP0dUpQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1693985241032?e=1762992000&v=beta&t=xk9y9BxZxvPKPFZAfqSkrqnYDHNCyxRGNb2NSF2qABk",
+        "https://media.licdn.com/dms/image/v2/D4E03AQHYnBdfP0dUpQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1693985241032?e=1764806400&v=beta&t=RIm0i5yrobjhW60YTdsrI_zTDkNI06QiFZylszOtdF8",
       role: "Producer (Sunbeat City, Soaked in Sin & ORTUS)",
       text: "Damy is hard working and selfmotivating, as long as she has a challenge in front of her she will figure it out with remarkable speed. <br>She's able to work well with others like when having to work close with designers to create specific features. Her overall optimistic attitude makes her approachable when you need help with technical issues. <br>Overall a delight to work with."
     },
@@ -555,14 +555,14 @@ const recommendations = {
       linkedin: "https://www.linkedin.com/in/jeroen-vermeulen-59994a317",
       role: "Environment Artist (Sunbeat City)",
       profilePicture:
-        "https://media.licdn.com/dms/image/v2/D4D03AQFWHGqSXOlssQ/profile-displayphoto-scale_200_200/B4DZoBoqYUIAAc-/0/1760964028423?e=1762992000&v=beta&t=cCyyjRLRQd6Hku_yAJys3ypMJPe6wVLZpSJPE5rftO8",
+        "https://media.licdn.com/dms/image/v2/D4D03AQFWHGqSXOlssQ/profile-displayphoto-scale_200_200/B4DZoBoqYUIAAc-/0/1760964028423?e=1764806400&v=beta&t=Vv2od1kaCWrObCJnv-0qQK_TZ0_5L0NjZDMiSc4ppYs",
       text: "Always really helpfull, and really nice to talk to.<br>Knows what she's talking about and doesn't shy away for an extra challenge"
     },
     {
       name: "Adrian Kowalik",
       linkedin: "https://www.linkedin.com/in/adrian-kowalik",
       profilePicture:
-        "https://media.licdn.com/dms/image/v2/D4D03AQFo_f9fS9RU8g/profile-displayphoto-scale_200_200/B4DZfB6AfKGYAY-/0/1751304899000?e=1762992000&v=beta&t=rGIdp0a_sH1hoHKROA0mRidnup9ZzSl5jsm7OQFdUwU",
+        "https://media.licdn.com/dms/image/v2/D4D03AQFo_f9fS9RU8g/profile-displayphoto-scale_200_200/B4DZfB6AfKGYAY-/0/1751304899000?e=1764806400&v=beta&t=AI1PpFKNtsYXZBlKIQ_jcmec6hZrNUaMXjy8fMDYyms",
       role: "UI/UX Designer (Sunbeat City, Soaked in Sin & ORTUS)",
       text: "I have worked with Damy on multiple projects over the course of 3 years. She's a really nice person to work with and incredibly motivated. She always tackles complex tasks head on, quickly delivering clean, maintainable code. During the creation of Sunbeat City she created many tools that allowed us to create new features. I'd work with her again when possible."
     }
