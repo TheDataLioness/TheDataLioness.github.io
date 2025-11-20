@@ -16,7 +16,7 @@ export default function SoftwareSkill() {
               >
                 <i className={skills.fontAwesomeClassname}></i>
                 <p className="software-skill-text">
-                  <b>{skills.skillName}</b>
+                  <b dangerouslySetInnerHTML={{__html: skills.skillName}}></b>
                 </p>
               </li>
             );

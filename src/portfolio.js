@@ -44,7 +44,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "About me in short",
-  subTitle: "I'M A GAMEPLAY PROGRAMMER STUDYING TECHNICAL DESIGN AT BUAS",
+  subTitle:
+    "I'M A TECHNICAL DESIGNER WITH A BACKGROUND IN GAMEPLAY PROGRAMMING",
   skills: [
     emoji(
       "⚡ I have been creating gameplay experiences for over 10 years now. I started with modding games back in 2014."
@@ -59,32 +60,27 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "C++",
-      fontAwesomeClassname: "fa fa-code"
-    },
-    {
-      skillName: "Unreal Engine 5",
+      skillName: "Unreal Engine 5 <br>C++ & Blueprinting",
       fontAwesomeClassname: "fa fa-gamepad"
     },
     {
-      skillName: "Technical Game Design",
-      fontAwesomeClassname: "fa fa-star"
+      skillName: "C++<br>ᅠ",
+      fontAwesomeClassname: "fa fa-code"
     },
     {
-      skillName: "Git",
+      skillName: "Git<br>ᅠ",
       fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "Perforce",
+      skillName: "Perforce<br>ᅠ",
       fontAwesomeClassname: "fa fa-code-branch"
     },
     {
-      skillName: "Steamworks",
+      skillName: "Steamworks<br>ᅠ",
       fontAwesomeClassname: "fa-brands fa-steam"
     },
-
     {
-      skillName: "OpenGL",
+      skillName: "OpenGL<br>ᅠ",
       fontAwesomeClassname: "fa fa-cube"
     }
   ],
