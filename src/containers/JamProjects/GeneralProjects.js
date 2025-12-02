@@ -51,7 +51,7 @@ function ProjectCard({project, isDark}) {
 
   const openUrlInNewTab = url => {
     if (!url) return;
-    const win = window.open(url, "_blank");
+    const win = window.open(url);
     win.focus();
   };
 
