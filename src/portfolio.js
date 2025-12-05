@@ -8,7 +8,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -61,11 +61,8 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Unreal Engine 5 <br>C++ & Blueprinting",
-      fontAwesomeClassname: "fa fa-gamepad"
-    },
-    {
-      skillName: "C++<br>ᅠ",
-      fontAwesomeClassname: "fa fa-code"
+      fontAwesomeClassname: "fa fa-gamepad",
+      image: require("./assets/images/UnrealEngineLogo.png")
     },
     {
       skillName: "Git<br>ᅠ",
@@ -214,16 +211,9 @@ const jamProjects = {
       ],
       footerLink: [
         {
-          name: "View pipeline videos",
-          url: "https://www.youtube.com/playlist?list=PLHxTDmjUToZ28CHMKOgWRPcggfd53Dw_p"
-        },
-        {
-          name: "View Showcase Video",
-          url: "https://www.youtube.com/watch?v=PcrpUXnaqrA"
-        },
-        {
-          name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/viewfinder"
+          name: "Read more",
+          url: "https://portfolio-blogs-one.vercel.app/viewfinder",
+          openInNewTab: false
         }
       ]
     },
@@ -250,13 +240,9 @@ const jamProjects = {
       ],
       footerLink: [
         {
-          name: "Go to Steam",
-          url: "https://store.steampowered.com/app/3586570/Soaked_in_Sin/"
-        },
-        {name: "See Trailer", url: "https://youtu.be/GNtSb0M_6_w"},
-        {
-          name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/soaked-in-sin"
+          name: "Read more",
+          url: "https://portfolio-blogs-one.vercel.app/soaked-in-sin",
+          openInNewTab: false
         }
       ]
     },
@@ -284,10 +270,10 @@ const jamProjects = {
         {name: "BUas Y2 Project"}
       ],
       footerLink: [
-        {name: "Go to Itch page", url: "https://buas.itch.io/sunbeat-city"},
         {
-          name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/sunbeatcity"
+          name: "Read more",
+          url: "https://portfolio-blogs-one.vercel.app/sunbeatcity",
+          openInNewTab: false
         }
       ]
     },
@@ -313,14 +299,10 @@ const jamProjects = {
         {name: "Best Year 1 Tech | BUas | 2024"}
       ],
       footerLink: [
-        {name: "Go to Itch page", url: "https://buas.itch.io/team-cumin"},
         {
-          name: "See Trailer",
-          url: "https://www.youtube.com/watch?v=AKISXZogN5w"
-        },
-        {
-          name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/ortus"
+          name: "Read more",
+          url: "https://portfolio-blogs-one.vercel.app/ortus",
+          openInNewTab: false
         }
       ]
     },
@@ -376,7 +358,8 @@ const jamProjects = {
       footerLink: [
         {
           name: "Go to Itch page",
-          url: "https://mrsxythe.itch.io/cmgt-gameham-2024"
+          url: "https://mrsxythe.itch.io/cmgt-gameham-2024",
+          openInNewTab: true
         }
       ]
     },
@@ -400,34 +383,10 @@ const jamProjects = {
       ],
       footerLink: [
         {
-          name: "Go to Itch page",
-          url: "https://datalioness.itch.io/armadillo-mayhem"
-        },
-        {name: "See Trailer", url: "https://youtu.be/xTdDhn9c2bg"}
-      ]
-    },
-    {
-      images: [
-        require("./assets/images/WolFishGameplayOne.png"),
-        require("./assets/images/WolFishGameplayTwo.png"),
-        require("./assets/images/WolFish_Thumbnail.png")
-      ],
-      projectName: "WolFish",
-      projectDesc:
-        "A jam game where a fish transforms into a wolf across dimensions.",
-      contributions: [
-        "Developed transformation mechanic between wolf and fish forms.",
-        "Worked on implementing player movement for the two forms."
-      ],
-      tags: [
-        {name: "Team Size: 5"},
-        {name: "Unreal Engine 5"},
-        {name: "Blueprinting"},
-        {name: "Gameplay Programming"},
-        {name: "CMGT Game Jam 2023 #1"}
-      ],
-      footerLink: [
-        {name: "Go to Itch page", url: "https://spel16.itch.io/wolfish"}
+          name: "See Trailer",
+          url: "https://youtu.be/xTdDhn9c2bg",
+          openInNewTab: true
+        }
       ]
     },
     {
@@ -451,7 +410,8 @@ const jamProjects = {
       footerLink: [
         {
           name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/damy-sandbox"
+          url: "https://portfolio-blogs-one.vercel.app/damy-sandbox",
+          openInNewTab: false
         }
       ]
     }
@@ -541,8 +501,7 @@ const recommendations = {
     {
       name: "Lasse Meerburg",
       linkedin: "https://www.linkedin.com/in/lasse-meerburg-8530b225b",
-      profilePicture:
-        "https://media.licdn.com/dms/image/v2/D4E03AQHYnBdfP0dUpQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1693985241032?e=1764806400&v=beta&t=RIm0i5yrobjhW60YTdsrI_zTDkNI06QiFZylszOtdF8",
+      profilePicture: require("./assets/images/LasseMeerburg.jpeg"),
       role: "Producer (Sunbeat City, Soaked in Sin & ORTUS)",
       text: "Damy is hard working and selfmotivating, as long as she has a challenge in front of her she will figure it out with remarkable speed. <br>She's able to work well with others like when having to work close with designers to create specific features. Her overall optimistic attitude makes her approachable when you need help with technical issues. <br>Overall a delight to work with."
     },
@@ -550,15 +509,13 @@ const recommendations = {
       name: "Jeroen Vermeulen",
       linkedin: "https://www.linkedin.com/in/jeroen-vermeulen-59994a317",
       role: "Environment Artist (Sunbeat City)",
-      profilePicture:
-        "https://media.licdn.com/dms/image/v2/D4D03AQFWHGqSXOlssQ/profile-displayphoto-scale_200_200/B4DZoBoqYUIAAc-/0/1760964028423?e=1764806400&v=beta&t=Vv2od1kaCWrObCJnv-0qQK_TZ0_5L0NjZDMiSc4ppYs",
+      profilePicture: require("./assets/images/JeroenVermeulen.jpeg"),
       text: "Always really helpfull, and really nice to talk to.<br>Knows what she's talking about and doesn't shy away for an extra challenge"
     },
     {
       name: "Adrian Kowalik",
       linkedin: "https://www.linkedin.com/in/adrian-kowalik",
-      profilePicture:
-        "https://media.licdn.com/dms/image/v2/D4D03AQFo_f9fS9RU8g/profile-displayphoto-scale_200_200/B4DZfB6AfKGYAY-/0/1751304899000?e=1764806400&v=beta&t=AI1PpFKNtsYXZBlKIQ_jcmec6hZrNUaMXjy8fMDYyms",
+      profilePicture: require("./assets/images/AdrianKowalik.jpeg"),
       role: "UI/UX Designer (Sunbeat City, Soaked in Sin & ORTUS)",
       text: "I have worked with Damy on multiple projects over the course of 3 years. She's a really nice person to work with and incredibly motivated. She always tackles complex tasks head on, quickly delivering clean, maintainable code. During the creation of Sunbeat City she created many tools that allowed us to create new features. I'd work with her again when possible."
     }

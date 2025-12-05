@@ -28,7 +28,10 @@
   color: white;
   font-size: 0.75rem;
   background-color: #6c757d;
-  cursor: progress;
+}
+
+.jam-project-tag-actualtag:hover{
+  cursor: default !important;
 }
 
 .jam-project-tag-actualtag:nth-child(even) {
@@ -42,18 +45,22 @@
 }
 
 .jam-project-button {
-  background-color: $buttonColor;
-  color: $lightBackground1;
-  border: none;
+  background-color: #d9baf6;
+  border: 1px solid $buttonColor;
   border-radius: 4px;
   padding: 0.5rem 1rem;
   margin-right: 0.5rem;
   transition: background-color 0.3s ease;
   pointer-events: all;
+  width: 85%;
+  height:40px;
+  color: $buttonColor;
 }
 
 .jam-project-button:hover {
   background-color: $buttonHover;
+  cursor: pointer;
+  color: $lightBackground1;
 }
 
 .slideshow-container {

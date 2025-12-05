@@ -51,8 +51,7 @@ function ProjectCard({project, isDark}) {
 
   const openUrlInNewTab = url => {
     if (!url) return;
-    const win = window.open(url);
-    win.focus();
+    window.open(url);
   };
 
   const tagColors = ["#6c757d", "#495057"]; // Muted gray and darker muted gray
@@ -127,8 +126,12 @@ function ProjectCard({project, isDark}) {
                 key={index}
                 className="jam-project-button"
                 onClick={() => {
-                  console.log("Fuck off");
-                  openUrlInNewTab(link.url);
+                  if (link.openInNewTab) {
+                    const win = window.open(link.url, "_blank");
+                    win.focus();
+                  } else {
+                    window.location.href = link.url;
+                  }
                 }}
               >
                 {link.name}
