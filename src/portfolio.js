@@ -205,9 +205,7 @@ const jamProjects = {
         {name: "Team Size: Solo"},
         {name: "Unreal Engine 5"},
         {name: "Blueprinting & C++"},
-        {name: "Technical Design"},
-        {name: "Gameplay Programming"},
-        {name: "BUas Y2 Project"}
+        {name: "School Project"}
       ],
       footerLink: [
         {
@@ -235,7 +233,6 @@ const jamProjects = {
       tags: [
         {name: "Team Size: 13"},
         {name: "Unreal Engine 5"},
-        {name: "Gameplay Programming"},
         {name: "Global Game Jam 2025"}
       ],
       footerLink: [
@@ -266,8 +263,7 @@ const jamProjects = {
       tags: [
         {name: "Team Size: 21"},
         {name: "Unreal Engine 5"},
-        {name: "Gameplay Programming"},
-        {name: "BUas Y2 Project"}
+        {name: "School Project"}
       ],
       footerLink: [
         {
@@ -294,9 +290,7 @@ const jamProjects = {
         {name: "Team Size: 12"},
         {name: "Unreal Engine 5"},
         {name: "Gameplay Programming"},
-        {name: "Graphics Programming"},
-        {name: "BUas Y1 Project"},
-        {name: "Best Year 1 Tech | BUas | 2024"}
+        {name: "Best Year 1 Tech | Breda University of Applied Sciences | 2024"}
       ],
       footerLink: [
         {
@@ -323,9 +317,6 @@ const jamProjects = {
       tags: [
         {name: "Team Size: Solo"},
         {name: "Unreal Engine 5"},
-        {name: "Gameplay Programming"},
-        {name: "Technical Design"},
-        {name: "Level Design"},
         {name: "Kenney Game Jam 2024"}
       ],
       footerLink: [
@@ -352,8 +343,6 @@ const jamProjects = {
       tags: [
         {name: "Team Size: 5"},
         {name: "Unreal Engine 5"},
-        {name: "Technical Design"},
-        {name: "Gameplay Programming"},
         {name: "CMGT Game Jam 2024 #1"}
       ],
       footerLink: [
@@ -379,8 +368,7 @@ const jamProjects = {
       tags: [
         {name: "Team Size: Solo"},
         {name: "Unreal Engine 5"},
-        {name: "Technical Design"},
-        {name: "BUas Y2 Project"}
+        {name: "School Project"}
       ],
       footerLink: [
         {
@@ -405,8 +393,6 @@ const jamProjects = {
         {name: "Team Size: Solo"},
         {name: "Unreal Engine 5"},
         {name: "Prototyping"},
-        {name: "Gameplay Programming"},
-        {name: "Technical Design"}
       ],
       footerLink: [
         {
