@@ -212,7 +212,7 @@ const jamProjects = {
       footerLink: [
         {
           name: "Read more",
-          url: "https://portfolio-blogs-one.vercel.app/viewfinder",
+          url: "https://blogs.damyodk.com/viewfinder",
           openInNewTab: false
         }
       ]
@@ -241,7 +241,7 @@ const jamProjects = {
       footerLink: [
         {
           name: "Read more",
-          url: "https://portfolio-blogs-one.vercel.app/soaked-in-sin",
+          url: "https://blogs.damyodk.com/soaked-in-sin",
           openInNewTab: false
         }
       ]
@@ -272,7 +272,7 @@ const jamProjects = {
       footerLink: [
         {
           name: "Read more",
-          url: "https://portfolio-blogs-one.vercel.app/sunbeatcity",
+          url: "https://blogs.damyodk.com/sunbeatcity",
           openInNewTab: false
         }
       ]
@@ -301,7 +301,7 @@ const jamProjects = {
       footerLink: [
         {
           name: "Read more",
-          url: "https://portfolio-blogs-one.vercel.app/ortus",
+          url: "https://blogs.damyodk.com/ortus",
           openInNewTab: false
         }
       ]
@@ -331,7 +331,8 @@ const jamProjects = {
       footerLink: [
         {
           name: "Go to Itch page",
-          url: "https://datalioness.itch.io/disconnected"
+          url: "https://datalioness.itch.io/disconnected",
+          openInNewTab: true
         }
       ]
     },
@@ -409,8 +410,8 @@ const jamProjects = {
       ],
       footerLink: [
         {
-          name: "Read the blog",
-          url: "https://portfolio-blogs-one.vercel.app/damy-sandbox",
+          name: "Read more",
+          url: "https://blogs.damyodk.com/damy-sandbox",
           openInNewTab: false
         }
       ]
