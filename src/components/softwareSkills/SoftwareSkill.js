@@ -8,7 +8,7 @@ export default function SoftwareSkill() {
       <div className="software-skills-main-div">
         <ul className="dev-icons">
           {skillsSection.softwareSkills.map((skills, i) => {
-            if(skills.image) {
+            if (skills.image) {
               return (
                 <li
                   key={i}
@@ -21,7 +21,7 @@ export default function SoftwareSkill() {
                   </p>
                 </li>
               );
-            }else{
+            } else {
               return (
                 <li
                   key={i}
