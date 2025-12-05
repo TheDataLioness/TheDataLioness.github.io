@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2107c10.css",
-    "main.js": "/static/js/main.a2e88b53.js",
+    "main.css": "/static/css/main.c92079e8.css",
+    "main.js": "/static/js/main.5eed9faa.js",
     "static/css/64.92f037d6.chunk.css": "/static/css/64.92f037d6.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.6be351a1.chunk.css": "/static/css/769.6be351a1.chunk.css",
@@ -23,8 +23,6 @@
     "static/media/SoakedInSinGameplayOne.png": "/static/media/SoakedInSinGameplayOne.1054b8607b941bdfdf56.png",
     "static/media/DisconnectedThumbnail.png": "/static/media/DisconnectedThumbnail.55b6ced3f216a31b194a.png",
     "static/media/DriftedAwayGameplay.png": "/static/media/DriftedAwayGameplay.e2720906e676fa15cfe2.png",
-    "static/media/WolFishGameplayTwo.png": "/static/media/WolFishGameplayTwo.724af8cebcf7f4c4606c.png",
-    "static/media/WolFishGameplayOne.png": "/static/media/WolFishGameplayOne.c4bed1e316fe8da51889.png",
     "static/media/DriftedAwayGameplay2.png": "/static/media/DriftedAwayGameplay2.5adeda67fba57936564d.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/SoakedInSinLogo.png": "/static/media/SoakedInSinLogo.e6ea4eec41fe5716d385.png",
@@ -38,7 +36,6 @@
     "static/media/ArmadilloMayhem1.png": "/static/media/ArmadilloMayhem1.36679ecec9b61db70d2f.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/Resume_Damy_op_den_Kamp.pdf": "/static/media/Resume_Damy_op_den_Kamp.c2b318617211cc6f0cac.pdf",
-    "static/media/WolFish_Thumbnail.png": "/static/media/WolFish_Thumbnail.b071754ffb018b9644cc.png",
     "static/media/itch_logo.png": "/static/media/itch_logo.a50f8c109c61601251ac.png",
     "static/media/DriftedAwayLogo.png": "/static/media/DriftedAwayLogo.2d11fdedfaf0cfb40d5d.png",
     "static/media/BlueSkyLogo.png": "/static/media/BlueSkyLogo.3a5f715532ff4746e302.png",
@@ -47,15 +44,15 @@
     "static/media/BUas_Logo.jpg": "/static/media/BUas_Logo.ee8b574290037ce8c84a.jpg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.b2107c10.css.map": "/static/css/main.b2107c10.css.map",
-    "main.a2e88b53.js.map": "/static/js/main.a2e88b53.js.map",
+    "main.c92079e8.css.map": "/static/css/main.c92079e8.css.map",
+    "main.5eed9faa.js.map": "/static/js/main.5eed9faa.js.map",
     "64.92f037d6.chunk.css.map": "/static/css/64.92f037d6.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.6be351a1.chunk.css.map": "/static/css/769.6be351a1.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2107c10.css",
-    "static/js/main.a2e88b53.js"
+    "static/css/main.c92079e8.css",
+    "static/js/main.5eed9faa.js"
   ]
 }
