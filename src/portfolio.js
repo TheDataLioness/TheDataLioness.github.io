@@ -192,7 +192,7 @@ const jamProjects = {
         require("./assets/images/ViewfinderPhoto.jpg"),
         require("./assets/images/ViewfinderBridge.jpg")
       ],
-      projectName: "Viewfinder Feature Recreation",
+      projectName: "RECREATION: Viewfinder Mechanic",
       projectDesc:
         "Recreation of Viewfinder's photo to world mechanic in Unreal Engine 5, where 2D pictures become traversable 3D environments.",
       contributions: [
