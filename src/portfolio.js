@@ -392,7 +392,7 @@ const jamProjects = {
       tags: [
         {name: "Team Size: Solo"},
         {name: "Unreal Engine 5"},
-        {name: "Prototyping"},
+        {name: "Prototyping"}
       ],
       footerLink: [
         {
