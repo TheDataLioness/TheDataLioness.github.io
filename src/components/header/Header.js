@@ -12,7 +12,8 @@ import {
   talkSection,
   achievementSection,
   resumeSection,
-  bigProjects
+  bigProjects,
+  headerText
 } from "../../portfolio";
 
 function Header() {
@@ -33,7 +34,7 @@ function Header() {
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
-        <p>Looking for Internship September 2026</p>
+        <p>{headerText}</p>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"

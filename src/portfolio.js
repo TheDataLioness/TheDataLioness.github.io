@@ -5,7 +5,7 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
-// Splash Screen
+const headerText = "Looking for Technical Design Internship September 2026";
 
 const splashScreen = {
   enabled: false, // set false to disable splash screen
@@ -544,5 +544,6 @@ export {
   isHireable,
   resumeSection,
   jamProjects,
-  recommendations
+  recommendations,
+  headerText
 };
